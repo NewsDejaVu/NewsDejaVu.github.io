@@ -13,7 +13,6 @@ description: >
 # Build settings
 
 theme: minima
- skin: solarized-light	
 
 plugins:
   - jekyll-feed
@@ -22,6 +21,7 @@ plugins:
 # Theme-specific settings
 
 minima:
+  skin: solarized-light	
   # Minima date format.
   # Refer to https://shopify.github.io/liquid/filters/date/ if you want to customize this.
   #
