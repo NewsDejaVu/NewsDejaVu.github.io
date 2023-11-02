@@ -13,7 +13,7 @@ description: >
 # Build settings
 
 theme: minima
-  skin: solarized-light	
+ skin: solarized-light	
 
 plugins:
   - jekyll-feed
