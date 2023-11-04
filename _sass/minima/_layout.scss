@@ -17,7 +17,6 @@
   letter-spacing: -1px;
   margin-bottom: 0;
   float: left;
-  position: center;
 
   @include media-query($on-palm) {
     padding-right: 45px;
