@@ -3,7 +3,16 @@
  */
 .site-header {
   border-top: 5px solid $border-color-03;
-  border-bottom: 1px solid $border-color-01;
+  // border-bottom: 1px solid $border-color-01;
+  min-height: $spacing-unit * 1.865;
+  line-height: $base-line-height * $base-font-size * 2.25;
+
+  // Positioning context for the mobile navigation icon
+  position: relative;
+}
+
+.site-subheader {
+  border-bottom: 3px solid black;
   min-height: $spacing-unit * 1.865;
   line-height: $base-line-height * $base-font-size * 2.25;
 
@@ -13,12 +22,15 @@
 
 .site-title {
   @include relative-font-size(1.625);
-  font-family: "Times New Roman", Times, serif;
-  text-align: center;
-  font-weight: 300;
+  font-family: "Old English Text MT", "Wide Latin", "Algerian", "Times New Roman";
+  font-size: 55px;
+  font-weight: 500;
   letter-spacing: -1px;
+  margin-top: $spacing-unit;
   margin-bottom: 0;
   float: left;
+  position: relative;
+  left: 200px;
 
   @include media-query($on-palm) {
     padding-right: 45px;
@@ -27,6 +39,35 @@
   &,
   &:visited {
     color: $site-title-color;
+  }
+  &:hover {
+    color: black;
+    text-decoration: none;
+  }
+}
+
+.site-subtitle {
+  @include relative-font-size(1.625);
+  color: grey;
+  font-family: "Times New Roman";
+  font-style: italic;
+  font-size: 17px;
+  font-weight: 500;
+  letter-spacing: -1px;
+  margin-top: $spacing-unit * 0.5;
+  margin-bottom: $spacing-unit;
+  float: left;
+  position: relative;
+  left: 350px;
+  text-align: center;
+  line-height: $base-line-height;
+
+  &:visited {
+    color: grey;
+  }
+  &:hover {
+    color: grey;
+    text-decoration: none;
   }
 }
 

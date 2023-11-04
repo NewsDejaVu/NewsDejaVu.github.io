@@ -1,6 +1,6 @@
 title: News Deja Vu
 author: 
-  name: NewsDejaVu 
+  name: NewsDejaVu on GitHub
   # email: newsdejavu.dellresearch@gmail.com
 
 # The `>` after `description:` means to ignore line-breaks until next key.
@@ -21,7 +21,7 @@ plugins:
 # Theme-specific settings
 
 minima:
-  skin: solarized-light
+  skin: classic
   # date_format: "%b %-d, %Y"
   social_links:
     - platform: github  # same as SVG filename.
