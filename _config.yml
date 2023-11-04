@@ -1,7 +1,7 @@
 title: News Deja Vu
 author: 
-  name: NewsDejaVu
-  email: newsdejavu.dellresearch@gmail.com
+  name: NewsDejaVu 
+  # email: newsdejavu.dellresearch@gmail.com
 
 # The `>` after `description:` means to ignore line-breaks until next key.
 # If you want to omit the line-break after the end of text, use `>-` instead.
@@ -22,17 +22,13 @@ plugins:
 
 minima:
   skin: solarized-light
-  date_format: "%b %-d, %Y"
+  # date_format: "%b %-d, %Y"
   social_links:
-    - { platform: twitter,        user_url: "https://twitter.com/jekyllrb" }
-    - { platform: x,              user_url: "https://x.com/jekyllrb" }
-    - { platform: instagram,      user_url: "https://www.instagram.com/jekyll" }
-    - { platform: facebook,       user_url: "https://www.facebook.com/jekyll" }
-    - { platform: linkedin,       user_url: "https://www.linkedin.com/in/jekyll" }
-    - { platform: pinterest,      user_url: "https://www.pinterest.com/jekyll" }
-    - { platform: flickr,         user_url: "https://www.flickr.com/photos/jekyll" }
-    - { platform: github,         user_url: "https://github.com/jekyll/minima" }
+    - platform: github  # same as SVG filename.
+      user_url: "https://github.com/NewsDejaVu/NewsDejaVu.github.io"  # URL of profile page.
+      title:  Check Us Out on Github  # Optional. Text displayed on hovering over link.
 
+    
 header_pages:
   - about.md
 
