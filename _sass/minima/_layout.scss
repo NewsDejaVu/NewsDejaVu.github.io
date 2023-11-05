@@ -3,71 +3,75 @@
  */
 .site-header {
   border-top: 5px solid $border-color-03;
-  // border-bottom: 1px solid $border-color-01;
-  min-height: $spacing-unit * 1.865;
+  border-bottom: 6px solid black;
+  min-height: $spacing-unit * 7;
   line-height: $base-line-height * $base-font-size * 2.25;
 
   // Positioning context for the mobile navigation icon
   position: relative;
+
 }
 
-.site-subheader {
-  border-bottom: 3px solid black;
-  min-height: $spacing-unit * 1.865;
-  line-height: $base-line-height * $base-font-size * 2.25;
-
-  // Positioning context for the mobile navigation icon
+.banner {
   position: relative;
-}
+  color: white;
+  display: block;
+  margin-top: 0;
+  text-decoration: none;
 
-.site-title {
-  @include relative-font-size(1.625);
-  font-family: "Old English Text MT", "Wide Latin", "Algerian", "Times New Roman";
-  font-size: 55px;
-  font-weight: 500;
-  letter-spacing: -1px;
-  margin-top: $spacing-unit;
-  margin-bottom: 0;
-  float: left;
-  position: relative;
-  left: 200px;
+  .img-container {
+    height: 120px;
+    width: height;
+    float: left;
 
-  @include media-query($on-palm) {
-    padding-right: 45px;
+    @include media-query($on-palm) {
+      visibility: hidden;
+      width: 0px;
+    }
+
+    img {
+      height: 100%;
+      width: auto;
+    }
   }
 
-  &,
-  &:visited {
-    color: $site-title-color;
+  h1 {
+    @include relative-font-size(1.625);
+    font-weight: bolder;
+    display: block;
+    font-family: "Old English Text MT", "Wide Latin", "Algerian", "Times New Roman";
+    font-size: 55px;
+    letter-spacing: -1px;
+    margin-top: 0;
+    margin-bottom: 0;
+    float: left;
+    position: relative;
+    left: 500px;
+
+    a:hover {
+      text-decoration: none;
+      color: black;
+    }
+    
   }
-  &:hover {
+
+  h2 {
+    @include relative-font-size(1.625);
     color: black;
-    text-decoration: none;
-  }
-}
-
-.site-subtitle {
-  @include relative-font-size(1.625);
-  color: grey;
-  font-family: "Times New Roman";
-  font-style: italic;
-  font-size: 17px;
-  font-weight: 500;
-  letter-spacing: -1px;
-  margin-top: $spacing-unit * 0.5;
-  margin-bottom: $spacing-unit;
-  float: left;
-  position: relative;
-  left: 350px;
-  text-align: center;
-  line-height: $base-line-height;
-
-  &:visited {
-    color: grey;
-  }
-  &:hover {
-    color: grey;
-    text-decoration: none;
+    display: block;
+    font-weight: lighter;
+    font-family: "Times New Roman";
+    font-style: italic;
+    font-size: 17px;
+    font-weight: 500;
+    letter-spacing: -1px;
+    margin-top: $spacing-unit * 2;
+    margin-bottom: $spacing-unit;
+    float: left;
+    position: relative;
+    left: 50px;
+    text-align: center;
+    line-height: $base-line-height;
   }
 }
 
