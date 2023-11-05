@@ -1,0 +1,35 @@
+title: News Déjà Vu
+author: 
+  name: NewsDejaVu on GitHub
+  # email: newsdejavu.dellresearch@gmail.com
+
+# The `>` after `description:` means to ignore line-breaks until next key.
+# If you want to omit the line-break after the end of text, use `>-` instead.
+description: >
+  Write an awesome description for your new site here. You can edit this line
+  in _config.yml. It will appear in your document head meta (for Google search
+  results) and in your feed.xml site description.
+
+# Build settings
+
+theme: minima
+
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+
+# Theme-specific settings
+
+minima:
+  skin: classic
+  # date_format: "%b %-d, %Y"
+  social_links:
+    - platform: github  # same as SVG filename.
+      user_url: "https://github.com/NewsDejaVu/NewsDejaVu.github.io"  # URL of profile page.
+      title:  Check Us Out on Github  # Optional. Text displayed on hovering over link.
+
+    
+header_pages:
+  - about.md
+
+show_excerpts: true
