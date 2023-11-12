@@ -28,8 +28,8 @@ minima:
       user_url: "https://github.com/NewsDejaVu/NewsDejaVu.github.io"  # URL of profile page.
       title:  Check Us Out on Github  # Optional. Text displayed on hovering over link.
 
-    
 header_pages:
   - about.md
+  - test.md
 
 show_excerpts: true

@@ -42,13 +42,13 @@
     font-weight: bolder;
     display: block;
     font-family: "Old English Text MT", "Wide Latin", "Algerian", "Times New Roman";
-    font-size: 55px;
+    font-size: 100px;
     letter-spacing: -1px;
-    margin-top: $spacing-unit * 0.5;
-    margin-bottom: 0;
+    margin-top: $spacing-unit * 1;
+    margin-bottom: $spacing-unit * 1;
     float: left;
     position: relative;
-    left: 450px;
+    left: 300px;
 
     a:hover {
       text-decoration: none;
@@ -59,7 +59,7 @@
       content: url("/assets/test-logo.png");
       display: inline-block;
       position: relative;
-      left: -30px;
+      left: -100px;
       width: 37px;
       top: 5px;
     }
@@ -76,11 +76,11 @@
     font-size: 17px;
     font-weight: 500;
     letter-spacing: -1px;
-    margin-top: $spacing-unit * 2.5;
+    margin-top: $spacing-unit * 4;
     margin-bottom: $spacing-unit;
     float: left;
     position: relative;
-    left: 0px;
+    left: -200px;
     text-align: center;
     line-height: $base-line-height;
   }
@@ -131,6 +131,12 @@
     padding-bottom: 5px;
   }
 
+  .home-link {
+    color: $text-color;
+    padding: 0px 20px;
+
+  }
+
   .page-link {
     color: $text-color;
     line-height: $base-line-height;
@@ -143,6 +149,7 @@
     }
     margin-left: 20px;
   }
+
 
   @media screen and (min-width: $on-medium) {
     position: static;
