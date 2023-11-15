@@ -1,5 +1,9 @@
 
 <header class="site-header">
+  <form action="{{ site.baseurl }}/search.html" method="get">
+    <input type="text" id="search-box" name="query">
+    <input type="submit" value="Search">
+  </form>
   <div class="wrapper">
     {%- assign default_paths = site.pages | map: "path" -%}
     {%- assign page_paths = site.header_pages | default: default_paths -%}
