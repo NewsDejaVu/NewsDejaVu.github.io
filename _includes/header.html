@@ -35,7 +35,22 @@
     <h1 class="site-title">
         <a rel="author" href="{{ '/' | relative_url }}">{{ site.title | escape }}</a>
     </h1>
-    <h2>"Those who cannot remember the past are condemned to repeat it."<br>-- George Santayana, The Life of Reason, 1905</h2>
+  </div>
+  <div class="phrase">"Those who cannot remember the past are condemned to repeat it."<br>-- George Santayana's<br>The Life of Reason</div>
+  <div class="weatherforcastbox">
+    <h1>Weather</h1>
+    <span>Plenty of Sunshine</span><br><span>Wind: 7km/h SSE; Ther: 21°C; Hum: 82%</span>
+  </div>
+  <div class="subheader">
+    <h2 class="left-subheader">VOL. XXXVIII. No. 1,805</h2>
+    <h2 class="center-subheader">Cambridge, Massachusetts,</h2>
+      <div class="current-date" id="current-date">
+        <script>
+          const options = { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' };
+          document.getElementById('current-date').innerHTML = new Date().toLocaleDateString('en-US', options);
+        </script>
+      </div>
+    <h2 class="right-subheader">10 Cents</h2>
   </div>
 </header>
 
