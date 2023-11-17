@@ -26,7 +26,7 @@
   margin-top: 0;
   margin-bottom: 0;
   position: relative;
-  left: 125px;
+  left: 150px;
 }
 
 // Helpful Code for creating this section
@@ -86,8 +86,8 @@
   font-style: normal;
   font-family: "High Tower Text";
   position: relative;
-  width: 15%;
-  left: -625px;
+  width: 18%;
+  left: -640px;
   border: 3px solid black;
   line-height: 20px;
   padding: 10px 15px 10px 15px;
@@ -98,22 +98,22 @@
 
 .weatherforcastbox{
   position: relative;
-  width: 12%;
-  left: 150px;
-  line-height: 20px;
+  width: 16%;
+  left: 95px;
+  line-height: $base-line-height * 0.85;
   display: inline-block;
   text-align: center;
-  top: -20px;
+  top: 12.5px;
 
   h1 {
-    font-size: 18px;
+    font-size: 22px;
     font-weight: bold;
     font-style: normal;
     margin-bottom: $spacing-unit * 0.01;
   }
   
   span {
-    font-size: 16px;
+    font-size: 18px;
     font-style: normal;
 
   }
@@ -123,7 +123,7 @@
   text-transform: uppercase;
   border-top: 2px solid black;
   border-bottom: 2px solid black;
-  line-height: $base-line-height * 2;
+  line-height: $base-line-height * 1;
 
   .left-subheader {
     color: black;
@@ -133,10 +133,11 @@
     font-style: italic;
     font-size: 14px;
     font-weight: 700;
-    left: 25px;
+    left: 10px;
     letter-spacing: 1px;
     position: relative;
     text-align: center;
+    margin-top: $spacing-unit * 0.4;
 
   }
 
@@ -148,10 +149,12 @@
     font-style: italic;
     font-size: 14px;
     font-weight: 700;
-    left: 100px;
+    left: 90px;
     letter-spacing: 1px;
     position: relative;
     text-align: center;
+    margin-top: $spacing-unit * 0.4;
+
 
   }
 
@@ -163,10 +166,12 @@
     font-style: italic;
     font-size: 14px;
     font-weight: 700;
-    left: 100px;
+    left: 90px;
     letter-spacing: 1px;
     position: relative;
     text-align: center;
+    margin-top: $spacing-unit * 0.4;
+
   }
 
   .right-subheader {
@@ -177,10 +182,11 @@
     font-style: italic;
     font-size: 14px;
     font-weight: 700;
-    left: 190px;
+    left: 180px;
     letter-spacing: 1px;
     position: relative;
     text-align: center;
+    margin-top: $spacing-unit * 0.4;
 
   }
 
@@ -381,20 +387,135 @@
 .post-list {
   margin-left: 0;
   list-style: none;
+  
 
   > li {
     margin-bottom: $spacing-unit;
   }
+
+  tbody {
+    vertical-align: top;
+  }
+
+  table, th, td {
+    border: 0px solid;
+    background-color: $background-color;
+  }
+
+  table {
+    table-layout: fixed;
+    width: 100%;
+    text-align: left;
+    border-collapse: collapse;
+  }
+
+  //  Following Four are to make the markdwon table look like a newspaper column
+
+  // First of child of each table
+  table tr:nth-child(5n-4) th {
+    border-top: 1px;
+  }
+
+  // Last child of each table
+  table tr:nth-child(5n) td {
+    border-bottom: 0;
+  }
+
+  // First Child
+  table tr td:nth-child(10n-9),
+  table tr th:nth-child(10n-9) {
+    border-right: 1px solid black;
+  }
+
+  // Last Child
+  table tr td:nth-child(10n),
+  table tr th:nth-child(10n) {
+    border-left: 1px solid black;
+  }
+
+  // Following five modify the text elements of each post
+
+  // First child
+  table tr:nth-child(5n-4) {
+    @include relative-font-size(3.25);
+    text-align: center;
+    font-family: "Gloucester MT";
+    color: black;
+    font-weight: 550;
+    text-transform: uppercase;
+    line-height: $base-line-height * 0.75;
+    position: relative;
+    top: -20px;
+    
+  }
+
+
+  // Second Child
+  table tr:nth-child(5n-3) {
+    position: relative;
+    text-align: left;
+    color: black;
+    top: -20px;
+  }
+
+  // Third Child
+  table tr:nth-child(5n-2) {
+    @include relative-font-size(1.35);
+    position: relative;
+    text-align: center;
+    font-family: "Times New Roman";
+    color: black;
+    font-weight: 600;
+    letter-spacing: 0px;
+    line-height: $base-line-height * 0.3;
+    top: -30px;
+  }
+
+  // Fourth Child
+  table tr:nth-child(5n-1) {
+    @include relative-font-size(1.125);
+    position: relative;
+    text-align: center;
+    color: black;
+    font-weight: 400;
+    letter-spacing: 0px;
+    line-height: $base-line-height * 0.3;
+    top: -10px;
+  }
+
+  // Fifth Child
+  table tr:nth-child(5n) {
+    color: black;
+  }
+
 }
 
+// Changed display to none to hide date
 .post-meta {
   font-size: $small-font-size;
   color: $brand-color;
+  display: none;
 }
 
+// Change How Post Titles Appear on Home page here
 .post-link {
   display: block;
-  @include relative-font-size(1.5);
+  position: relative;
+  left: 0px;
+  font-family: "Times New Roman";
+  font-weight: 800;
+  font-style: oblique;
+  text-align: center;
+  letter-spacing: 2.5px;
+  text-transform: uppercase;
+  border-bottom: 3px solid black;
+  line-height: $base-line-height * 0.5;
+  top: -10px;
+  padding-top: 10px;
+  padding-bottom: 30px;
+  @media screen and (min-width: $on-large) {
+    @include relative-font-size(4.5);
+  }
 }
 
 
@@ -406,19 +527,124 @@
   margin-bottom: $spacing-unit;
 }
 
-.post-title,
+
 .post-content h1 {
   @include relative-font-size(2.625);
   letter-spacing: -1px;
   line-height: 1.15;
+}
+
+.post-title {
+  position: relative;
+  left: 0px;
+  font-family: "Times New Roman";
+  font-weight: 800;
+  font-style: oblique;
+  text-align: center;
+  letter-spacing: 2.5px;
+  text-transform: uppercase;
+  border-bottom: 3px solid black;
+  line-height: $base-line-height * 0.5;
+  top: -10px;
+  padding-top: 10px;
+  padding-bottom: 30px;
 
   @media screen and (min-width: $on-large) {
-    @include relative-font-size(2.625);
+    @include relative-font-size(4.5);
   }
+
+}
+
+// Get ride of date display
+.dt-published {
+  display: none;
 }
 
 .post-content {
   margin-bottom: $spacing-unit;
+
+  tbody {
+    vertical-align: top;
+  }
+
+  table, th, td {
+    border: 0px solid;
+    background-color: $background-color;
+  }
+
+  table {
+    table-layout: fixed;
+    width: 100%;
+    text-align: left;
+    border-collapse: collapse;
+  }
+
+  // Making table look like newspaper column
+
+  table tr:first-child th {
+    border-top: 1px;
+  }
+  table tr:last-child td {
+    border-bottom: 0;
+  }
+  table tr td:first-child,
+  table tr th:first-child {
+    border-right: 1px solid black;
+  }
+  table tr td:last-child,
+  table tr th:last-child {
+    border-left: 1px solid black;
+  }
+
+  // Modifying text conent
+
+  table tr:nth-child(1) {
+    @include relative-font-size(3.25);
+    text-align: center;
+    font-family: "Gloucester MT";
+    color: black;
+    font-weight: 550;
+    text-transform: uppercase;
+    line-height: $base-line-height * 0.75;
+    position: relative;
+    top: -20px;
+    
+  }
+
+  table tr:nth-child(2) {
+    position: relative;
+    text-align: left;
+    color: black;
+    top: -20px;
+  }
+
+  table tr:nth-child(3) {
+    @include relative-font-size(1.35);
+    position: relative;
+    text-align: center;
+    font-family: "Times New Roman";
+    color: black;
+    font-weight: 600;
+    letter-spacing: 0px;
+    line-height: $base-line-height * 0.3;
+    top: -30px;
+  }
+
+  table tr:nth-child(4) {
+    @include relative-font-size(1.125);
+    position: relative;
+    text-align: center;
+    color: black;
+    font-weight: 400;
+    letter-spacing: 0px;
+    line-height: $base-line-height * 0.3;
+    top: -10px;
+  }
+
+  table tr:nth-child(5) {
+    color: black;
+  }
+
 
   h1, h2, h3, h4, h5, h6 { margin-top: $spacing-unit }
 
@@ -449,6 +675,7 @@
     @include relative-font-size(1.0625);
   }
 }
+
 
 
 .social-media-list {
