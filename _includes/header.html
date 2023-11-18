@@ -37,10 +37,13 @@
     </h1>
   </div>
   <div class="phrase">"Those who cannot remember the past<br>are condemned to repeat it."<br>-- George Santayana's<br>The Life of Reason</div>
-  <div class="weatherforcastbox">
-    <h1>Weather</h1>
-    <p id="weather-data"></p> 
-    <script src="assets/js/weather.js"></script> 
+  <!-- Got the following from this api: https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js -->
+  <script src="{{ '/assets/js/jquery.min.js' | relative_url }}"></script>
+  <div id="weatherforecastbox" style="width:16%; height:48%; line-height: 95%; position: absolute; left: 82%; display: inline-block; top: 25%;">
+    <h1 id="weather-header" style="margin-bottom: 2.5%; font-size: 22px; font-weight: bold; font-style: normal; text-align: center;">Weather</h1>
+    <p id="weather-data" style="font-style: normal; text-align: center;"></p> 
+    <script src="{{ '/assets/js/weather.js' | relative_url }}"></script>
+    <script src="{{ '/assets/js/resize-weather-text.js' | relative_url }}"></script>
   </div>
   <div class="subheader">
     <h2 class="left-subheader">VOL. XXXVIII. No. 1,805</h2>

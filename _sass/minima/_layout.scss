@@ -49,17 +49,17 @@
   }
 
   h1 {
-    @include relative-font-size(1.625);
+    @include relative-font-size(8.5);
     font-weight: bolder;
     display: block;
     font-family: "Old English Text MT", "Wide Latin", "Algerian", "Times New Roman";
-    font-size: 100px;
     letter-spacing: 2px;
-    margin-top: $spacing-unit * 1.25;
+    margin-top: $spacing-unit * 1;
     margin-bottom: $spacing-unit * 1;
     float: left;
     position: relative;
     left: 325px;
+    transform: translate(-6.5%, 6.5%);
 
     a:hover {
       text-decoration: none;
@@ -86,44 +86,47 @@
   font-style: normal;
   font-family: "High Tower Text";
   position: relative;
-  width: 18%;
-  left: -640px;
+  width: 15.75%;
+  left: -870px;
   border: 3px solid black;
   line-height: 20px;
-  padding: 10px 15px 10px 15px;
+  padding: 10px 10px 10px 10px;
   display: inline-block;
-  margin-top: $spacing-unit * 0.5;
-  font-size: 14px;
+  margin-top: $spacing-unit * 1;
+  font-size: 13.75px;
+  top: -25px;
 }
 
-.weatherforcastbox{
-  position: relative;
-  width: 16%;
-  left: 95px;
-  line-height: $base-line-height * 0.85;
-  display: inline-block;
-  text-align: center;
-  top: 12.5px;
 
-  h1 {
-    font-size: 22px;
-    font-weight: bold;
-    font-style: normal;
-    margin-bottom: $spacing-unit * 0.01;
-  }
+// .weatherforecastbox{
+//   position: fixed;
+//   line-height: $base-line-height * 0.85;
+//   display: inline-block;
+//   top: 60px;
+//   left: 83%;
+
+//   h1 {
+//     font-size: 22px;
+//     font-weight: bold;
+//     font-style: normal;
+//     margin-bottom: $spacing-unit * 0.01;
+//     text-align: center;
+//   }
   
-  span {
-    font-size: 18px;
-    font-style: normal;
+//   p {
+//     font-style: normal;
+//     text-align: left;
+//     text-indent: 10%;
 
-  }
-}
+//   }
+// }
 
 .subheader{
   text-transform: uppercase;
   border-top: 2px solid black;
   border-bottom: 2px solid black;
   line-height: $base-line-height * 1;
+  margin-top: $spacing-unit * 0.05;
 
   .left-subheader {
     color: black;
@@ -149,7 +152,7 @@
     font-style: italic;
     font-size: 14px;
     font-weight: 700;
-    left: 90px;
+    left: 165px;
     letter-spacing: 1px;
     position: relative;
     text-align: center;
@@ -166,7 +169,7 @@
     font-style: italic;
     font-size: 14px;
     font-weight: 700;
-    left: 90px;
+    left: 165px;
     letter-spacing: 1px;
     position: relative;
     text-align: center;
@@ -182,7 +185,7 @@
     font-style: italic;
     font-size: 14px;
     font-weight: 700;
-    left: 180px;
+    left: 360px;
     letter-spacing: 1px;
     position: relative;
     text-align: center;
