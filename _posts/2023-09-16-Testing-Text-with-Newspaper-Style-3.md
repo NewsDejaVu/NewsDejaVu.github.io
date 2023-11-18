@@ -3,12 +3,15 @@ layout: post
 # You can change the title from the one in the markdown file name
 title: "Testing the Text"
 # Categories seem to work like tags. !!! Use for dates also !!!. Learn more about them in YML headers
-categories: junk, Jan, January
+categories: 
+- Satire
+tags: 
+- Richard Nixon
 # You can change the date from the one in the markdown file name
 # You can put the date in one of two ways: 2023-01-12 or January 12th, 2023
 # Include date in text two to include the 
 # Find a way to include
-date: 2023-01-12
+date: 2019-05-19
 # author:
 # - Bart Simpson
 # - Nelson Mandela Muntz

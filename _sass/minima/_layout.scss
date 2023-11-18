@@ -721,6 +721,31 @@
   }
 }
 
+/**
+ * Month Archive
+ */
+
+ .month-archive {
+  color: black;
+  position: relative;
+  text-align: center;
+  line-height: $base-line-height * 1.5;
+
+  h3 {
+    position: relative;
+    left: 15px;
+  }
+
+  li {
+    list-style-type: none;
+  }
+
+  a {
+    font-weight: bold;
+  }
+
+ }
+
 
 
 /**

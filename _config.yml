@@ -17,6 +17,8 @@ theme: minima
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
+  - jekyll-paginate
+  - jekyll-archives
 
 # Theme-specific settings
 
@@ -30,6 +32,25 @@ minima:
 
 header_pages:
   - about.md
-  - test.md
+  - archive.md
+  - tag.md
+  - category.md
 
 show_excerpts: true
+
+paginate: 4
+paginate_path: "/blog/page:num/"
+
+jekyll-archives:
+  enabled:
+  - month
+  - tags
+  - categories
+  layouts:
+    month: month-archive
+    category: category-archive
+    tag: tag-archive
+  permalinks:
+    month: '/archives/month/:year-:month/'
+    tag: '/archives/tag/:name/'
+    category: '/archives/category/:name/'
