@@ -106,39 +106,50 @@
   display: inline-block;
   margin-top: $spacing-unit * 1;
   font-size: 13.75px;
-  top: -25px;
+  top: -50px;
 }
 
 
-// .weatherforecastbox{
-//   position: fixed;
-//   line-height: $base-line-height * 0.85;
-//   display: inline-block;
-//   top: 60px;
-//   left: 83%;
+.weatherforecastbox{
+  position: relative;
+  display: inline-block;
+  margin-top: 0.75%;
+  left: 2.5%;
+  line-height: 95%;
 
-//   h1 {
-//     font-size: 22px;
-//     font-weight: bold;
-//     font-style: normal;
-//     margin-bottom: $spacing-unit * 0.01;
-//     text-align: center;
-//   }
+  h1 {
+    font-size: 22px;
+    font-style: normal;
+    margin-bottom: 2.5%;
+    text-align: center;
+    font-weight: bold;
+  }
   
-//   p {
-//     font-style: normal;
-//     text-align: left;
-//     text-indent: 10%;
+  p {
+    width: 225px;
+    height: 100px;
+    font-style: normal;
+    text-align: center; 
+    font-size: 12px; 
+    overflow: hidden;
+  }
 
-//   }
-// }
+  // How to hide the scroll bar until hover
+
+  p:hover {
+    overflow-y: auto;
+    overflow-x: auto;
+    background-color: transparent;
+  }
+}
 
 .subheader{
   text-transform: uppercase;
   border-top: 2px solid black;
   border-bottom: 2px solid black;
   line-height: $base-line-height * 1;
-  margin-top: $spacing-unit * 0.05;
+  margin-top: $spacing-unit * -1;
+  position: relative;
 
   .left-subheader {
     color: black;
