@@ -1,5 +1,5 @@
 ---
-layout: base
+layout: page
 ---
 
 <div class="category-archive">
@@ -8,8 +8,9 @@ layout: base
   <ul>
     {% for item in (0..site.categories.size) %}{% unless forloop.last %}
       {% capture this_word %}{{ categories_list[item] | strip_newlines }}{% endcapture %}
-      <li><a href="#{{ this_word}}" class="category"><span class="category-name">{{ this_word }}</span> <span class="count">{{ site.categories[this_word].size }}</span></a></li>
-    {% endunless %}{% endfor %}
+      <!-- <li><a href="#{{ this_word}}" class="category"><span class="category-name">{{ this_word }}</span> <span class="count">{{ site.categories[this_word].size }}</span></a></li> -->
+      <li><a href="#{{ this_word}}" class="category"><span class="category-name">{{ this_word }}</span></a></li>
+      {% endunless %}{% endfor %}
   </ul>
   {% for item in (0..site.categories.size) %}{% unless forloop.last %}
     {% capture this_word %}{{ categories_list[item] | strip_newlines }}{% endcapture %}

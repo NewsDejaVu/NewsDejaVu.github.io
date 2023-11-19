@@ -29,7 +29,7 @@
   margin-top: 0;
   margin-bottom: 0;
   position: relative;
-  left: 150px;
+  left: 310px;
 }
 
 // Helpful Code for creating this section
@@ -57,12 +57,12 @@
     display: block;
     font-family: "Old English Text MT", "Wide Latin", "Algerian", "Times New Roman";
     letter-spacing: 2px;
-    margin-top: $spacing-unit * 1;
+    margin-top: $spacing-unit * 1.075;
     margin-bottom: $spacing-unit * 1;
     float: left;
     position: relative;
-    left: 325px;
-    transform: translate(-6.5%, 6.5%);
+    left: 300px;
+    text-align: center;
 
     a:hover {
       text-decoration: none;
@@ -82,6 +82,7 @@
   }
 
 }
+
 
 .search {
   text-align: center;
@@ -114,7 +115,7 @@
   position: relative;
   display: inline-block;
   margin-top: 0.75%;
-  left: 2.5%;
+  left: 55px;
   line-height: 95%;
 
   h1 {
@@ -175,7 +176,7 @@
     font-style: italic;
     font-size: 14px;
     font-weight: 700;
-    left: 165px;
+    left: 200px;
     letter-spacing: 1px;
     position: relative;
     text-align: center;
@@ -192,7 +193,7 @@
     font-style: italic;
     font-size: 14px;
     font-weight: 700;
-    left: 165px;
+    left: 200px;
     letter-spacing: 1px;
     position: relative;
     text-align: center;
@@ -208,7 +209,7 @@
     font-style: italic;
     font-size: 14px;
     font-weight: 700;
-    left: 360px;
+    left: 380px;
     letter-spacing: 1px;
     position: relative;
     text-align: center;
@@ -771,6 +772,40 @@
   }
 
  }
+
+ .tag-archive {
+    color: black;
+    position: relative;
+    text-align: center;
+    line-height: $base-line-height * 1.5;
+
+
+  li {
+    list-style-type: none;
+  }
+
+  a {
+    font-weight: bold;
+  }
+
+ }
+
+ .category-archive {
+    color: black;
+    position: relative;
+    text-align: center;
+    line-height: $base-line-height * 1.5;
+
+
+  li {
+    list-style-type: none;
+  }
+
+  a {
+    font-weight: bold;
+  }
+
+}
 
 
 
