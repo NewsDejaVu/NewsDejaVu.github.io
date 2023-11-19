@@ -9,7 +9,10 @@
   // Positioning context for the mobile navigation icon
   position: relative;
 
+
+  // Affects the Search Bar at the top left of page
   form {
+    display: none; // Don't want to display the search bar here b/c want it as separate tab
     margin-top: 0;
     margin-bottom: 0;
     float: left;
@@ -78,6 +81,15 @@
     
   }
 
+}
+
+.search {
+  text-align: center;
+  margin-top: 15px;
+
+  ul {
+    list-style-type: none;
+  }
 }
 
 .phrase{

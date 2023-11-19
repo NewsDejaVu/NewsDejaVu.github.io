@@ -27,7 +27,7 @@ async function getWeather() {
     
 } 
 
-// Calling the function every 2 hours
-setInterval(getWeather(), 1000 * 60 * 60 * 2);
+// Calling the function every hour
+setInterval(getWeather(), 1000 * 60 * 60 * 1);
 
 

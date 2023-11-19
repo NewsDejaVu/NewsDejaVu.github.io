@@ -35,6 +35,7 @@ header_pages:
   - archive.md
   - tag.md
   - category.md
+  - search_bar.md
 
 show_excerpts: true
 

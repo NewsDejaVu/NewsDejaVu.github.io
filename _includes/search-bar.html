@@ -1,0 +1,141 @@
+
+<!-- Old Search Code from Header -->
+
+<!-- <form action="{{ site.baseurl }}/search.html" method="get">
+    <input type="text" id="search-box" name="query">
+    <input type="submit" value="Search">
+</form> -->
+
+<html>
+<head>
+    <style>
+        html {
+        --dark-gray: rgb(90, 90, 90);
+        --light-gray: rgb(148, 148, 148);
+        --focus-black: black;
+        }
+        .searchbox {
+        --target-size: 48px; /* https://web.dev/accessible-tap-targets/ */
+        --box-height: var(--target-size);
+        --border-radius: calc(var(--box-height) / 2);
+        --border-width: 5px;
+        --icon-size: calc(var(--box-height) * 3/4 );
+        --side-margin: calc(var(--border-radius) / 2);
+        --icon-vertical-margin: calc( ( var(--box-height) - var(--icon-size) ) / 2 );
+        }
+        /* shaping the box */
+        .searchbox {
+        height: var(--box-height);
+        max-width: 561px; /* to follow the search box of google.com */
+        }
+        .searchbox input[type="text"] {
+        border: var(--border-width) solid var(--dark-gray);
+        border-radius: var(--border-radius);
+        height: 100%;
+        width: 100%;
+        }
+        /* Styling each component */
+        .searchbox input[type="text"] {
+        -webkit-appearance: none; /* to prevent Safari from ignoring font-size */
+        color: var(black); 
+        font-family: 'Noto Sans', Verdana, sans-serif;
+        font-size: 1.5rem;
+        appearance: none;
+        }
+        .searchbox input[type="text"]::placeholder {
+        color: var(--light-gray);
+        opacity: 1; /* to override the default of Firefox */
+        }
+        /* positioning inner elements */
+        .searchbox {
+        position: relative;
+        }
+        .searchbox input[type="text"] {
+        padding-left: calc( var(--side-margin) + var(--icon-size) + 4px);
+        padding-right: var(--side-margin);
+        }
+        input[type="text"]::-webkit-search-decoration {
+        -webkit-appearance: none; /* Remove the left padding inside the box for Safari; see https://github.com/filipelinhares/ress/blob/master/ress.css */
+        }
+        .searchbox input[type="text"] {
+        background: transparent;
+        }
+        /* Styling focus state */
+        .searchbox input[type="text"]:focus {
+        border-color: var(--focus-black);
+        box-shadow: 0px 0px 5px var(--focus-black);
+        outline: 1px solid transparent; /* fallback for forced color modes; see https://www.sarasoueidan.com/blog/focus-indicators/#tips-for-styling-focus-indicators */
+        /* it also removes the default focus ring imposed by browsers */
+        }
+        /* Custom-style the delete button that appears once the user enters text (Chrome and Safari only); see https://css-tricks.com/webkit-html5-search-inputs/#aa-styling-search-graphical-widgets */
+        .searchbox input[type="text"]::-webkit-search-cancel-button {
+        -webkit-appearance: searchfield-cancel-button;
+        height: calc(var(--box-height) / 2);
+        width: calc(var(--box-height) / 2);
+        }
+        input[type="text"] {
+        -webkit-tap-highlight-color: transparent; /* Otherwise, tapping will show a flash of grey background on iOS Safari; see https://twitter.com/masa_kudamatsu/status/1429387005658468356 */
+        }
+        input[type="image"] {
+            position: absolute;
+            left: -7.5%;
+            margin-top: -40px;
+        }
+        /* Positioning the search box */
+        body .searchbox {
+        width: 90%;
+        margin: 0 auto;
+        top: 50%;
+        }
+        .close-icon {
+        border:1px solid transparent;
+        background-color: transparent;
+        display: inline-block;
+        vertical-align: middle;
+        outline: 0;
+        cursor: pointer;
+        }
+        .close-icon:after {
+            content: "X";
+            display: block;
+            width: 20px;
+            height: 20px;
+            position: absolute;
+            background-color: transparent;
+            z-index:1;
+            right: -60px;
+            top: -2.5px;
+            bottom: 0;
+            margin: auto;
+            padding: 2px;
+            border-radius: 50%;
+            text-align: center;
+            color: black;
+            font-weight: bolder;
+            font-size: 18px;
+            cursor: pointer;
+            border: 2px solid black;
+        }
+        .search-box:not(:valid) ~ .close-icon {
+            display: none;
+        }
+    </style>
+</head>
+<body>
+    <div class="searchbox">
+        <form action="{{ site.baseurl }}/search.html" method="get">
+        <input 
+          aria-label="Search for text" 
+          autocomplete="off"
+          inputmode="text" 
+          placeholder="Search here ..."
+          type="text"
+          id="search-box"
+          name="query"
+          />
+        <input type="image" value="Search" src="{{ site.baseurl }}/assets/test-logo.png"/>
+        <button class="close-icon" type="reset"></button>
+        </form>
+      </div>
+</body>
+</html>
