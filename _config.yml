@@ -17,12 +17,14 @@ theme: minima
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
+  - jekyll-paginate
+  - jekyll-archives
 
 # Theme-specific settings
 
 minima:
   skin: classic
-  # date_format: "%b %-d, %Y"
+  # date_format: "%B %-d, %Y"
   social_links:
     - platform: github  # same as SVG filename.
       user_url: "https://github.com/NewsDejaVu/NewsDejaVu.github.io"  # URL of profile page.
@@ -30,6 +32,26 @@ minima:
 
 header_pages:
   - about.md
-  - test.md
+  - archive.md
+  - tag.md
+  - category.md
+  - search_bar.md
 
 show_excerpts: true
+
+paginate: 4
+paginate_path: "/blog/page:num/"
+
+jekyll-archives:
+  enabled:
+  - month
+  - tags
+  - categories
+  layouts:
+    month: month-archive
+    category: category-archive
+    tag: tag-archive
+  permalinks:
+    month: '/archives/month/:year-:month/'
+    tag: '/archives/tag/:name/'
+    category: '/archives/category/:name/'

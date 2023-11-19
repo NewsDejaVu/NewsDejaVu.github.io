@@ -19,7 +19,7 @@ dl, dd, ol, ul, figure {
  * Basic styling
  */
 body {
-  font: $base-font-weight #{$base-font-size}/#{$base-line-height} "Times New Roman";
+  font: $base-font-weight #{$base-font-size}/#{$base-line-height} "Rockwell";
   color: black;
   background-color: $background-color;
   -webkit-text-size-adjust: 100%;
@@ -104,6 +104,7 @@ li {
  */
 h1, h2, h3, h4, h5, h6 {
   font-weight: 550;
+  font-family: "Engravers MT";
 }
 
 

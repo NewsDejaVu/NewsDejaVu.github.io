@@ -2,6 +2,11 @@
 Merging_Remote_Branch_into_Local_Repository.md
 Notes.md
 /draft_logos
+/_sass/minima/newspaper_style_design.scss
+/_layouts/newspaper_style_design.html
+/_layouts/newspaper_style_design.html
+/assets/js/resize-weather-text.js
+
 
 #  Theme Minima Files to Ignore
 Theme_Minima_LICENSE.txt
