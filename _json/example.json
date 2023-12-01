@@ -1,0 +1,19 @@
+{
+    "source": "Example News",
+    "author": "John Doe",
+    "title": "A Day in the Life of a City",
+    "clean_text": "This is an example of clean text extracted from the article.",
+    "url": "https://www.example.com/a-day-in-the-life",
+    "nearest_hist_news": [{
+        "image_file_name": "example_image.jpg",
+        "headline": "Historical Event: The City's Past",
+        "article": "This is an article describing a significant historical event related to the city. It provides insights into the past occurrences and their impact on the present.",
+        "byline": "By Jane Smith, Historical Correspondent"
+    },
+    {
+        "image_file_name": "example_image2.jpg",
+        "headline": "Historical Event: The City's Past 2",
+        "article": "This is another article describing a significant historical event related to the city. It provides insights into the past occurrences and their impact on the present.",
+        "byline": "By Jane Doe, Historical Correspondent"
+    }]
+}

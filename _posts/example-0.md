@@ -1,0 +1,5 @@
+# Historical Event: The City's Past
+
+*By Jane Smith, Historical Correspondent*
+
+This is an article describing a significant historical event related to the city. It provides insights into the past occurrences and their impact on the present.
