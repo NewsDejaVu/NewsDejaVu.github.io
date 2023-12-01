@@ -1,6 +1,7 @@
 import os
 import json
 import datetime
+import random
 
 def convert_json_to_md(json_file, source_folder='_json', destination_folder='_posts'):
     # Construct the full path of the source and destination files
@@ -12,22 +13,33 @@ def convert_json_to_md(json_file, source_folder='_json', destination_folder='_po
         data = json.load(file)
 
     # Extract content from JSON
+    print(data)
+    original_title = data.get('title', {})
+    original_article = data.get('clean_text', {})
+    original_byline = data.get('author', {})
     nearest_hist_news = data.get('nearest_hist_news', {})
-    print(nearest_hist_news)
-    for i, news in enumerate(nearest_hist_news):
-      destination_path = os.path.join(destination_folder, json_file.replace('.json', f'-{i}.md'))
-      headline = news.get('headline', 'No Headline')
-      article = news.get('article', 'No Article Content')
-      byline = news.get('byline', 'No Byline')
+    randint = random.randint(0, len(nearest_hist_news)-1)
+    news = nearest_hist_news[randint]
+    destination_path = os.path.join(destination_folder, json_file.replace('.json', '.md'))
+    headline = news.get('headline', 'No Headline')
+    article = news.get('article', 'No Article Content')
+    byline = news.get('byline', 'No Byline')
 
-      # Format the content in Markdown
-      md_content = f"# {headline}\n\n*{byline}*\n\n{article}\n"
+    # Format the content in Markdown
+    md_content = (
+          "---\n\n"
+          f"| {original_title} | {headline} |\n"
+          "| ----------------------------------- | ----------------------------------- |\n"
+          f"| {original_byline} | {byline} |\n"
+          f"| {original_article} | {article} |\n"
+    )
+    print(md_content)
 
-      # Write the content to a .md file
-      with open(destination_path, 'w') as file:
-          file.write(md_content)
+    # Write the content to a .md file
+    with open(destination_path, 'w') as file:
+        file.write(md_content)
 
-      print(f"Converted {json_file} to Markdown and saved in {destination_folder}")
+    print(f"Converted {json_file} to Markdown and saved in {destination_folder}")
 
 if __name__ == '__main__':
   todaysdate = datetime.datetime.today().strftime('%Y-%m-%d')
