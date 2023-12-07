@@ -32,6 +32,9 @@ layout: base
           </a>
         </h3>
         {%- if site.show_excerpts -%}
+          <!-- The following shows excerpt and truncates it if activated in _config file -->
+          <!-- {{ post.excerpt | strip_html | strip_newlines | truncate: 750  }} -->
+          <!-- Didn't like how above excerpt looked so did your own version altering table css elements -->
           {{ post.excerpt }}
         {%- endif -%}
       </li>
