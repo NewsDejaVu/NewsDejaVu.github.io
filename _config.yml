@@ -6,9 +6,16 @@ author:
 # The `>` after `description:` means to ignore line-breaks until next key.
 # If you want to omit the line-break after the end of text, use `>-` instead.
 description: >
-  Write an awesome description for your new site here. You can edit this line
-  in _config.yml. It will appear in your document head meta (for Google search
-  results) and in your feed.xml site description.
+  Description and Disclaimer:
+  The News Déjà Vu website uses a large language model to select 
+  a historical news article that is similar in its use of language 
+  to a modern news article, after names of people, locations, and 
+  organizations have been masked. The language model captures similarities 
+  in the semantics of how things are described, which may or may not 
+  reflect similarities in the underlying events or situations 
+  being described. While the historical news articles are drawn from 
+  mainstream news wires, they reflect the norms and biases of their time 
+  and may be considered offensive or contain inaccurate information.
 
 # Build settings
 
@@ -34,8 +41,10 @@ header_pages:
   - about.md
   - archive.md
   - tag.md
-  - category.md
+  # - category.md # add back once we decide what we want to do with this page
   - search_bar.md
+
+google_analytics: G-MZCLNR9M8W
 
 show_excerpts: true
 

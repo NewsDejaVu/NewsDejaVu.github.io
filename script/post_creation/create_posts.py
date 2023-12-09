@@ -79,11 +79,12 @@ def convert_json_to_md(todaysdate, source_folder=Path(os.getcwd(), '_json'), des
 
     byline = ""
     if temp_byline and source_name:
-        byline = f"{temp_byline} for {source_name}"
-    elif source_name:
-        byline = f"{source_name}" 
+        byline = f"{temp_byline} published in {source_name}"
     elif temp_byline:
-        byline = f"{byline}" 
+        byline = f"{temp_byline}" 
+    elif source_name:
+        byline = f"News Wire Article published in {source_name}" 
+    
     
     # Format the content in Markdown
     md_content = (
