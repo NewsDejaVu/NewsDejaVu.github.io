@@ -339,59 +339,94 @@
   margin-left: 0;
 }
 
-.footer-col-wrapper,
-.social-links {
-  @include relative-font-size(0.9375);
-  color: $brand-color;
+.site-description {
+  text-align: center;
+  color: gray;
 }
 
-.footer-col {
-  margin-bottom: $spacing-unit * .5;
+.message {
+  text-align: center;
+  color: gray;
 }
 
-.footer-col-1,
-.footer-col-2 {
-  width: calc(50% - (#{$spacing-unit} / 2));
+.link-row {
+  position: relative;
+  display: flex;                  
+  flex-direction: row;            /* default value; can be omitted */
+  flex-wrap: nowrap;             
+  justify-content: space-between; 
+  left: 45px;
+  padding-bottom: 15px;;
 }
 
-.footer-col-3 {
-  width: calc(100% - (#{$spacing-unit} / 2));
-}
-
-@media screen and (min-width: $on-large) {
-  .footer-col-1 {
-    width: calc(35% - (#{$spacing-unit} / 2));
-  }
-
-  .footer-col-2 {
-    width: calc(20% - (#{$spacing-unit} / 2));
-  }
-
-  .footer-col-3 {
-    width: calc(45% - (#{$spacing-unit} / 2));
+.feed-subscribe {
+  span {
+    color: gray;
   }
 }
 
-@media screen and (min-width: $on-medium) {
-  .footer-col-wrapper {
-    display: flex
-  }
+// .social-links {
+//   margin-right: 225px;
+  
+// }
 
-  .footer-col {
-    width: calc(100% - (#{$spacing-unit} / 2));
-    padding: 0 ($spacing-unit * .5);
+// .share-buttons {
+//   margin-left: 225px;
+// }
 
-    &:first-child {
-      padding-right: $spacing-unit * .5;
-      padding-left: 0;
-    }
+// .footer-col-wrapper,
+// .social-links {
+//   @include relative-font-size(0.9375);
+//   color: $brand-color;
+// }
 
-    &:last-child {
-      padding-right: 0;
-      padding-left: $spacing-unit * .5;
-    }
-  }
-}
+// .footer-col {
+//   margin-bottom: $spacing-unit * .5;
+// }
+
+// .footer-col-1,
+// .footer-col-2 {
+//   width: calc(50% - (#{$spacing-unit} / 2));
+// }
+
+// .footer-col-3 {
+//   width: calc(100% - (#{$spacing-unit} / 2));
+// }
+
+// @media screen and (min-width: $on-large) {
+//   .footer-col-1 {
+//     width: calc(35% - (#{$spacing-unit} / 2));
+//   }
+
+//   .footer-col-2 {
+//     width: calc(20% - (#{$spacing-unit} / 2));
+//   }
+
+//   .footer-col-3 {
+//     width: calc(45% - (#{$spacing-unit} / 2));
+//   }
+// }
+
+// @media screen and (min-width: $on-medium) {
+//   .footer-col-wrapper {
+//     display: flex
+//   }
+
+//   .footer-col {
+//     width: calc(100% - (#{$spacing-unit} / 2));
+//     padding: 0 ($spacing-unit * .5);
+
+//     &:first-child {
+//       padding-right: $spacing-unit * .5;
+//       padding-left: 0;
+//     }
+
+//     &:last-child {
+//       padding-right: 0;
+//       padding-left: $spacing-unit * .5;
+//     }
+//   }
+// }
 
 
 

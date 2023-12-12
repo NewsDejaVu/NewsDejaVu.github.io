@@ -1,21 +1,20 @@
 title: News Déjà Vu
+# Changed the html for this in the header b/c want to do more customization
+# text after name will not display b/c commented out that section in the html 
 author: 
-  name: NewsDejaVu on GitHub
-  # email: newsdejavu.dellresearch@gmail.com
+  name: NewsDejaVu on Github
+#   # email: newsdejavu.dellresearch@gmail.com
 
 # The `>` after `description:` means to ignore line-breaks until next key.
 # If you want to omit the line-break after the end of text, use `>-` instead.
 description: >
-  Description and Disclaimer:
-  The News Déjà Vu website uses a large language model to select 
+  Welcome to News Déjà Vu! This website uses a large language model to select 
   a historical news article that is similar in its use of language 
   to a modern news article, after names of people, locations, and 
   organizations have been masked. The language model captures similarities 
   in the semantics of how things are described, which may or may not 
   reflect similarities in the underlying events or situations 
-  being described. While the historical news articles are drawn from 
-  mainstream news wires, they reflect the norms and biases of their time 
-  and may be considered offensive or contain inaccurate information.
+  being described. Please enjoy!
 
 # Build settings
 
@@ -35,10 +34,11 @@ minima:
   social_links:
     - platform: github  # same as SVG filename.
       user_url: "https://github.com/NewsDejaVu/NewsDejaVu.github.io"  # URL of profile page.
-      title:  Check Us Out on Github  # Optional. Text displayed on hovering over link.
+      title:  Check Out NewsDejaVu on Github  # Optional. Text displayed on hovering over link.
 
 header_pages:
   - about.md
+  - editors.md
   - archive.md
   - tag.md
   # - category.md # add back once we decide what we want to do with this page
