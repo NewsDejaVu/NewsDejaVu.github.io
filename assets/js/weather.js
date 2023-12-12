@@ -18,7 +18,7 @@ async function getWeather() {
 
   if (!response1.ok){
 
-    document.getElementById("weather-data").innerHTML = ""
+    document.getElementById("weather-data").innerHTML = "Q: How does a hurricane see?<br>A: With its eye."
 
   } else if (response1.ok){
 
@@ -28,7 +28,7 @@ async function getWeather() {
 
     if (!response2.ok) {
 
-      document.getElementById("weather-data").innerHTML = ""
+      document.getElementById("weather-data").innerHTML = "Cloudy with a Chance of Meatballs.<br>Winds 8 Miles per 127 Hours, North by Northwest.<br>High of Farenheit 451."
 
     } else if (response2.ok) {
 

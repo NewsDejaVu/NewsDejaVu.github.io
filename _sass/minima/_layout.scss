@@ -339,59 +339,94 @@
   margin-left: 0;
 }
 
-.footer-col-wrapper,
-.social-links {
-  @include relative-font-size(0.9375);
-  color: $brand-color;
+.site-description {
+  text-align: center;
+  color: gray;
 }
 
-.footer-col {
-  margin-bottom: $spacing-unit * .5;
+.message {
+  text-align: center;
+  color: gray;
 }
 
-.footer-col-1,
-.footer-col-2 {
-  width: calc(50% - (#{$spacing-unit} / 2));
+.link-row {
+  position: relative;
+  display: flex;                  
+  flex-direction: row;            /* default value; can be omitted */
+  flex-wrap: nowrap;             
+  justify-content: space-between; 
+  left: 45px;
+  padding-bottom: 15px;;
 }
 
-.footer-col-3 {
-  width: calc(100% - (#{$spacing-unit} / 2));
-}
-
-@media screen and (min-width: $on-large) {
-  .footer-col-1 {
-    width: calc(35% - (#{$spacing-unit} / 2));
-  }
-
-  .footer-col-2 {
-    width: calc(20% - (#{$spacing-unit} / 2));
-  }
-
-  .footer-col-3 {
-    width: calc(45% - (#{$spacing-unit} / 2));
+.feed-subscribe {
+  span {
+    color: gray;
   }
 }
 
-@media screen and (min-width: $on-medium) {
-  .footer-col-wrapper {
-    display: flex
-  }
+// .social-links {
+//   margin-right: 225px;
+  
+// }
 
-  .footer-col {
-    width: calc(100% - (#{$spacing-unit} / 2));
-    padding: 0 ($spacing-unit * .5);
+// .share-buttons {
+//   margin-left: 225px;
+// }
 
-    &:first-child {
-      padding-right: $spacing-unit * .5;
-      padding-left: 0;
-    }
+// .footer-col-wrapper,
+// .social-links {
+//   @include relative-font-size(0.9375);
+//   color: $brand-color;
+// }
 
-    &:last-child {
-      padding-right: 0;
-      padding-left: $spacing-unit * .5;
-    }
-  }
-}
+// .footer-col {
+//   margin-bottom: $spacing-unit * .5;
+// }
+
+// .footer-col-1,
+// .footer-col-2 {
+//   width: calc(50% - (#{$spacing-unit} / 2));
+// }
+
+// .footer-col-3 {
+//   width: calc(100% - (#{$spacing-unit} / 2));
+// }
+
+// @media screen and (min-width: $on-large) {
+//   .footer-col-1 {
+//     width: calc(35% - (#{$spacing-unit} / 2));
+//   }
+
+//   .footer-col-2 {
+//     width: calc(20% - (#{$spacing-unit} / 2));
+//   }
+
+//   .footer-col-3 {
+//     width: calc(45% - (#{$spacing-unit} / 2));
+//   }
+// }
+
+// @media screen and (min-width: $on-medium) {
+//   .footer-col-wrapper {
+//     display: flex
+//   }
+
+//   .footer-col {
+//     width: calc(100% - (#{$spacing-unit} / 2));
+//     padding: 0 ($spacing-unit * .5);
+
+//     &:first-child {
+//       padding-right: $spacing-unit * .5;
+//       padding-left: 0;
+//     }
+
+//     &:last-child {
+//       padding-right: 0;
+//       padding-left: $spacing-unit * .5;
+//     }
+//   }
+// }
 
 
 
@@ -420,20 +455,36 @@
     margin-bottom: $spacing-unit;
   }
 
-  tbody {
-    vertical-align: top;
-  }
-
   table, th, td {
     border: 0px solid;
     background-color: $background-color;
   }
 
+  // Use height to control how much text is hidden
+  // See following source for how to do text fade:
+  // https://stackoverflow.com/questions/11837606/fading-out-text-at-bottom-of-a-section-with-transparent-div-but-height-stays-un
+  
   table {
+    display: inline-block;
     table-layout: fixed;
-    width: 100%;
     text-align: left;
     border-collapse: collapse;
+    -webkit-mask-image: linear-gradient(to bottom, black 50%, transparent 100%);
+    mask-image: linear-gradient(to bottom, black 50%, transparent 100%);
+    height: 700px;
+    overflow-y: hidden;
+  }
+
+  tbody {
+    vertical-align: top;
+    background: $background-color;
+    transition: background 0.5s ease-out;
+  }
+
+
+  // Make sure each column takes up same amount of space
+  td {
+    width: 50%;
   }
 
   //  Following Four are to make the markdwon table look like a newspaper column
@@ -463,6 +514,7 @@
   // Following five modify the text elements of each post
 
   // First child
+  // Controls Each articles Headline for Post on main page
   table tr:nth-child(5n-4) {
     @include relative-font-size(3.25);
     text-align: center;
@@ -472,12 +524,13 @@
     text-transform: uppercase;
     line-height: $base-line-height * 0.75;
     position: relative;
-    top: -20px;
+    top: -10px;
     
   }
 
 
   // Second Child
+  // Controls images for Post if have them on main page
   table tr:nth-child(5n-3) {
     position: relative;
     text-align: left;
@@ -486,6 +539,7 @@
   }
 
   // Third Child
+  // Controls article bylines for Post on main page
   table tr:nth-child(5n-2) {
     @include relative-font-size(1.35);
     position: relative;
@@ -494,11 +548,12 @@
     color: black;
     font-weight: 600;
     letter-spacing: 0px;
-    line-height: $base-line-height * 0.3;
+    line-height: $base-line-height * 0.75;
     top: -30px;
   }
 
   // Fourth Child
+  // Controls dates for Post on main page
   table tr:nth-child(5n-1) {
     @include relative-font-size(1.125);
     position: relative;
@@ -511,6 +566,7 @@
   }
 
   // Fifth Child
+  // Controls article body for Post on main page
   table tr:nth-child(5n) {
     color: black;
   }
@@ -625,6 +681,7 @@
 
   // Modifying text conent
 
+  // Controls Each articles Headline for Post on its own page
   table tr:nth-child(1) {
     @include relative-font-size(3.25);
     text-align: center;
@@ -637,14 +694,14 @@
     top: -20px;
     
   }
-
+  // Controls Space where an image would go on Post on its own page
   table tr:nth-child(2) {
     position: relative;
     text-align: left;
     color: black;
     top: -20px;
   }
-
+  // Controls Byline on Post on its own page
   table tr:nth-child(3) {
     @include relative-font-size(1.35);
     position: relative;
@@ -653,10 +710,10 @@
     color: black;
     font-weight: 600;
     letter-spacing: 0px;
-    line-height: $base-line-height * 0.3;
+    line-height: $base-line-height * 0.75;
     top: -30px;
   }
-
+  // Controls Date on Post on its own page
   table tr:nth-child(4) {
     @include relative-font-size(1.125);
     position: relative;
@@ -667,7 +724,7 @@
     line-height: $base-line-height * 0.3;
     top: -10px;
   }
-
+  // Controls Body on Post on its own page
   table tr:nth-child(5) {
     color: black;
   }
