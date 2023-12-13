@@ -7,6 +7,13 @@ Notes.md
 /_layouts/newspaper_style_design.html
 /assets/js/resize-weather-text.js
 /test-searchbar-styling.html
+screenshot.png
+readme_banner.svg
+History.markdown
+CODE_OF_CONDUCT.md
+# /_json
+# Only Comment the Following 2
+# /_posts
 
 
 #  Theme Minima Files to Ignore
@@ -35,3 +42,15 @@ Gemfile.lock
 .Trashes
 ehthumbs.db
 Thumbs.db
+
+# Environments
+.envs
+.env
+.venv
+envs/
+env/
+venv/
+ENVS/
+ENV/
+env.bak/
+venv.bak/
