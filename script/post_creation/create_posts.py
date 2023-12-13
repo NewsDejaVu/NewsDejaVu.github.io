@@ -88,8 +88,11 @@ def convert_json_to_md(todaysdate, source_folder=Path(os.getcwd(), '_json'), des
         elif temp_byline:
             byline = f"{temp_byline}" 
         elif source_name:
-            byline = f"News Wire Article published in {source_name}" 
-        
+            if source_name[0:3].lower() != "the":
+                byline = f"News Wire Article published in the {source_name}" 
+            else:
+                 byline = f"News Wire Article published in {source_name}" 
+
         
         # Format the content in Markdown
         md_content = (
