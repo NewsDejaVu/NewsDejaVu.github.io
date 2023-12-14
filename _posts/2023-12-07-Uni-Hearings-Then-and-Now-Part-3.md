@@ -5,7 +5,7 @@ tags: [university]
 date: 2023-12-07
 ---
 
-| US House committee opens probe into Harvard, Penn, MIT after antisemitism hearing | Senator, educator clash on riots |
+| US House committee opens probe into Harvard, Penn, MIT after antisemitism hearing | Say Communists Back Of Berkeley Uprising |
 |  |  |
 |  Gabriella Borter for Reuters | News Wire article published in the Yuma Sun |
 | December 7, 2023 | June 18, 1965 |
