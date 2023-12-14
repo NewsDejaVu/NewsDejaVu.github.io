@@ -152,7 +152,7 @@ if __name__ == '__main__':
     convert_json_to_md(
         todaysdate=this_file_name.split(".")[0],
         source_folder=Path('/mnt/122a7683-fa4b-45dd-9f13-b18cc4f4a187/thisdayinhistory/clean_output_ndv'),
-        destination_folder=Path('/mnt/122a7683-fa4b-45dd-9f13-b18cc4f4a187/thisdayinhistory/newsdejavu/_posts')
+        destination_folder=Path('/mnt/122a7683-fa4b-45dd-9f13-b18cc4f4a187/thisdayinhistory/NewsDejaVu.github.io/_posts')
         )
 
 
