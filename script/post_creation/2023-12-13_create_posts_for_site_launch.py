@@ -43,18 +43,25 @@ def convert_json_to_md(todaysdate, source_folder=Path(os.getcwd(), '_json'), des
             if original_tag:
                 tags.append(original_tag)
             
-            original_title = data.get('title', '').title().replace('|', ' ').replace('\n', ' ')
+            original_title = data.get('title', '').title().replace('|', ' ').replace('\n', ' ').strip()
             
             original_article = data.get('clean_text', '')[:1_000] # want only the first 1500 characters
             original_article = original_article.replace('|', ' ').replace('\n\n', '<br>&nbsp;&nbsp;&nbsp;&nbsp;').replace('\n', ' ')
             original_article = original_article + f' ...<br><br>Read the full article at<br>[{original_url}]({original_url})'
             if original_article[:len('&nbsp;&nbsp;&nbsp;&nbsp;')] != '&nbsp;&nbsp;&nbsp;&nbsp;':
                 original_article = '&nbsp;&nbsp;&nbsp;&nbsp;' + original_article
-            original_author = data.get('author', '').title().replace('|', ' ').replace('\n', ' ')
+            
+            if not original_title:
+                original_title = original_article[:75] + " ..."
+
+            original_author = data.get('author', '').title().replace('|', ' ').replace('\n', ' ').strip()
 
             original_byline = ""
             if original_author and original_source_name:
-                original_byline = f"{original_author} for {original_source_name}"
+                if original_source_name[0:3].lower() != "the":
+                    original_byline = f"{original_author} for the {original_source_name}"
+                else:
+                    original_byline = f"{original_author} for {original_source_name}"
             elif source_name:
                 original_byline = f"{original_source_name}" 
             elif temp_byline:
@@ -94,15 +101,23 @@ def convert_json_to_md(todaysdate, source_folder=Path(os.getcwd(), '_json'), des
             if news_tag:
                 tags.append(news_tag)
 
-            headline = news.get('headline', '').title().replace('|', ' ').replace('\n', ' ')
+            headline = news.get('headline', '').title().replace('|', ' ').replace('\n', ' ').strip()
+
             article =  news.get('article', '').replace('|', ' ').replace('\n\n', '<br>&nbsp;&nbsp;&nbsp;&nbsp;').replace('\n', ' ')
             if article[:len('&nbsp;&nbsp;&nbsp;&nbsp;')] != '&nbsp;&nbsp;&nbsp;&nbsp;':
                 article = '&nbsp;&nbsp;&nbsp;&nbsp;' + article
-            temp_byline = news.get('byline', '').title().replace('|', ' ').replace('\n', ' ')
+            
+            if not headline:
+                headline = article[:75] + " ..."
+
+            temp_byline = news.get('byline', '').title().replace('|', ' ').replace('\n', ' ').strip()
 
             byline = ""
             if temp_byline and source_name:
-                byline = f"{temp_byline} published in {source_name}"
+                if source_name[0:3].lower() != "the":
+                    byline = f"{temp_byline} published in the {source_name}"
+                else:
+                    byline = f"{temp_byline} published in {source_name}"
             elif temp_byline:
                 byline = f"{temp_byline}" 
             elif source_name:

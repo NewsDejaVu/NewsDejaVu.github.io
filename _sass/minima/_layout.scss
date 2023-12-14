@@ -449,7 +449,10 @@
 .post-list {
   margin-left: 0;
   list-style: none;
-  
+
+  .post-link {
+    line-height: $base-line-height * 0.575;
+  }
 
   > li {
     margin-bottom: $spacing-unit;
@@ -627,7 +630,7 @@
   letter-spacing: 2.5px;
   text-transform: uppercase;
   border-bottom: 3px solid black;
-  line-height: $base-line-height * 0.5;
+  line-height: $base-line-height * 0.575;
   top: -10px;
   padding-top: 10px;
   padding-bottom: 30px;
