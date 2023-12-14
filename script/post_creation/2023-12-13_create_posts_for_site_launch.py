@@ -145,7 +145,7 @@ def convert_json_to_md(todaysdate, source_folder=Path(os.getcwd(), '_json'), des
             )
             # print(md_content)
 
-            destination_path = Path(destination_folder, f'{todaysdate}-This-Day-in-History_{i}.md')
+            destination_path = Path(destination_folder, f'{todaysdate}-This-Day-in-History_{i + 1}.md')
 
             # Write the content to a .md file
             with open(destination_path, 'w', encoding='utf-8') as file:
