@@ -29,11 +29,20 @@ def convert_json_to_md(todaysdate, source_folder=Path(os.getcwd(), '_json'), des
 
         for i in range(len(og_data)):
 
+            tags = []
+
             data = og_data[i]
         
             original_url = data.get('url', '')
+            
             original_source = data.get('source', {})
             original_source_name = original_source.get('name', '').title().replace('|', ' ').replace('\n', ' ')
+            
+            original_tag = data.get('most_freq_entity', '').strip().title()
+            # if not empty string
+            if original_tag:
+                tags.append(original_tag)
+            
             original_title = data.get('title', '').title().replace('|', ' ').replace('\n', ' ')
             
             original_article = data.get('clean_text', '')[:1_000] # want only the first 1500 characters
@@ -66,6 +75,7 @@ def convert_json_to_md(todaysdate, source_folder=Path(os.getcwd(), '_json'), des
                 post_title = f'Today\'s News {date} -- Part {i}'
             else:
                 print('news has length zero')
+                continue
 
             image_file_name = news.get('image_file_name', '')
             image_file_name_split = ""
@@ -77,6 +87,12 @@ def convert_json_to_md(todaysdate, source_folder=Path(os.getcwd(), '_json'), des
                 source_name = " ".join(image_file_name_split[1:-5]).title().replace('|', ' ').replace('\n', ' ')
             else:
                 print('image_file_name is an empty string')
+                continue
+
+            news_tag = news.get('most_freq_entity', '').strip().title()
+            # if not empty string
+            if news_tag:
+                tags.append(news_tag)
 
             headline = news.get('headline', '').title().replace('|', ' ').replace('\n', ' ')
             article =  news.get('article', '').replace('|', ' ').replace('\n\n', '<br>&nbsp;&nbsp;&nbsp;&nbsp;').replace('\n', ' ')
@@ -103,8 +119,7 @@ def convert_json_to_md(todaysdate, source_folder=Path(os.getcwd(), '_json'), des
                 f"title: \"{post_title}\"\n",
                 # "categories:\n",
                 # f"    - {''}\n",
-                # "tags:\n", 
-                # f'    - {''}\n',
+                f"tags: {str(tags)}\n",
                 f'date: {todaysdate}\n',
                 "---\n\n",
                 f'| {original_title} | {headline} |\n',
@@ -124,11 +139,14 @@ def convert_json_to_md(todaysdate, source_folder=Path(os.getcwd(), '_json'), des
             print(f"Converted {todaysdate}.json' to Markdown and saved in {destination_folder}")
     
     elif not os.path.isfile(Path(source_folder, f'{todaysdate}.json')):
+        
         print("Today's file was not found")
     
     return None
 
 if __name__ == '__main__':
+  
+  # convert_json_to_md(todaysdate=datetime.datetime.today().strftime('%Y-%m-%d'))
   
   for this_file_name in os.listdir(Path('/mnt/122a7683-fa4b-45dd-9f13-b18cc4f4a187/thisdayinhistory/clean_output_ndv')):
     convert_json_to_md(
@@ -136,5 +154,5 @@ if __name__ == '__main__':
         source_folder=Path('/mnt/122a7683-fa4b-45dd-9f13-b18cc4f4a187/thisdayinhistory/clean_output_ndv'),
         destination_folder=Path('/mnt/122a7683-fa4b-45dd-9f13-b18cc4f4a187/thisdayinhistory/newsdejavu/_posts')
         )
-#   convert_json_to_md(todaysdate=datetime.datetime.today().strftime('%Y-%m-%d'))
+
 

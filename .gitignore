@@ -2,18 +2,18 @@
 Merging_Remote_Branch_into_Local_Repository.md
 Notes.md
 /draft_logos
-/_sass/minima/newspaper_style_design.scss
-/_layouts/newspaper_style_design.html
-/_layouts/newspaper_style_design.html
-/assets/js/resize-weather-text.js
-/test-searchbar-styling.html
+_sass/minima/newspaper_style_design.scss
+_layouts/newspaper_style_design.html
+_layouts/newspaper_style_design.html
+assets/js/resize-weather-text.js
+test-searchbar-styling.html
 screenshot.png
 readme_banner.svg
 History.markdown
 CODE_OF_CONDUCT.md
-/template_posts
-# /_json
-# /_posts
+template_posts/
+# _json/
+# _posts/
 
 
 #  Theme Minima Files to Ignore
