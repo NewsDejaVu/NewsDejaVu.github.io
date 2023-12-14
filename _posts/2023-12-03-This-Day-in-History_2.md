@@ -1,0 +1,12 @@
+---
+layout: post
+title: "Today's News December 3, 2023 -- Part 3"
+tags: ['Mcdaniel', 'Rockne']
+date: 2023-12-03
+---
+
+| In Mike Mcdaniel, Josh Harris May Have A Blueprint For His Coaching Hire | No One Can Follow Rockne, Will Says Excusing Andersor |
+|  |  |
+| Barry Svrluga for The Washington Post | News Wire Article published in the Athens Sunday Messenger |
+| December 3, 2023 | December 10, 1933 |
+| &nbsp;&nbsp;&nbsp;&nbsp;Let’s assume Josh Harris spent the second half of the Miami Dolphins’ 45-15 dissection of his Washington Commanders looking away from the “action” and instead weighing who might be his next coach. At this point, how could he not? Given the scene Sunday, it’s so easy to imagine a scenario in which Harris looked across the field at Dolphins Coach Mike McDaniel with no small degree of envy and said, “Get me one of those.”<br>&nbsp;&nbsp;&nbsp;&nbsp;Sunday’s coaching matchup of McDaniel vs. Ron Rivera at FedEx Field was essentially unfair. One could teach the football version of differential calculus; the other struggles with basic addition. One masters three-dimensional chess; the other wrestles with tic-tac-toe.<br>&nbsp;&nbsp;&nbsp;&nbsp;All you need to know about how Sunday played out is that Rivera fired his defensive coordinator Nov. 24 and took over play-calling himself, and it took McDaniel all of three plays to get wideout Tyreek Hill — he of the fastest-in-the-league legs — in one-on-one coverage with rookie defensive back Quan Ma ...<br><br>Read the full article at<br>[https://www.washingtonpost.com/sports/2023/12/03/ron-rivera-mike-mcdaniel/](https://www.washingtonpost.com/sports/2023/12/03/ron-rivera-mike-mcdaniel/) | &nbsp;&nbsp;&nbsp;&nbsp;BEVERLY HILLS, Calif.—U. 8S. cabinet members can change, but when Notre Dame changes coaches, you are getting into real news. Anderson just run into bad breaks, I bet he will go some- where elise and turn out a great team. And Elmer Layden will come there and do great, for he won't be following Rockne, There just didn’t happen to be anybody living that eould follow Rockne, And while we are on football and off the gold, this Columbia Col- lege that's coming here New Years, being New Yorkers, they never was away from home so naturally they are not known out here. But we have heard of Nicholas Murray Butler, so we want ‘em to bring “Nicholas"’ with 'em. We will hear a good speech even if the game is bad.<br>&nbsp;&nbsp;&nbsp;&nbsp;Yours, WILL.  |

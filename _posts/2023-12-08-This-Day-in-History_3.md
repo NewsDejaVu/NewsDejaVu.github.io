@@ -1,0 +1,12 @@
+---
+layout: post
+title: "Today's News December 8, 2023 -- Part 4"
+tags: ['Garber']
+date: 2023-12-08
+---
+
+| Lionel Messi Has The ‘Eyes Of The World’ On Mls, Commissioner Says | Near Fist Fights And Torrid Debate |
+|  |  |
+| Steven Goff for The Washington Post | News Wire Article published in the Brainerd Daily Dispatch |
+| December 8, 2023 | June 28, 1924 |
+| &nbsp;&nbsp;&nbsp;&nbsp;COLUMBUS, Ohio — As MLS prepares to wrap up its 28th season Saturday, Commissioner Don Garber on Friday reflected on a year dominated by Lionel Messi’s midseason arrival and looked ahead to the Argentine superstar’s return for a full campaign in 2024. Wp Get the full experience. Choose your plan ArrowRight “Lionel Messi had many options for the next chapter of his iconic soccer-playing career,” Garber said during his state of the league address. “The magnitude of his decision to join MLS cannot be overstated.”<br>&nbsp;&nbsp;&nbsp;&nbsp;Messi’s impact was felt on the field, where he picked up where he left off in a storied club career that began in Barcelona and passed through Paris before landing with Inter Miami in August. It was also felt off the field, where his presence in the relatively young league boosted marketing power, ticket sales and Apple TV Plus subscriptions.<br>&nbsp;&nbsp;&nbsp;&nbsp;“The eyes of the world are now on Major League Soccer because the best player to ever play the game is here,” Garber said. “And he succee ...<br><br>Read the full article at<br>[https://www.washingtonpost.com/sports/2023/12/08/lionel-messi-mls-inter-miami/](https://www.washingtonpost.com/sports/2023/12/08/lionel-messi-mls-inter-miami/) | &nbsp;&nbsp;&nbsp;&nbsp;United Press Headquarters, Wal- dorf Hotel, New York, June 28--The platform committee of the demo- cratic national convention is still in bitter deadlock on the question of an anti-Klan plank.<br>&nbsp;&nbsp;&nbsp;&nbsp;The weary members emerged from an atmosphere of near fist fights and torrid debate at 5:30 this morning with all its work done except a plank on the Klan.<br>&nbsp;&nbsp;&nbsp;&nbsp;It wag to meet again at 1:30. In the meantime conferences between different leaders within and outside the committee continued through the morning in an effort to break the jam.<br>&nbsp;&nbsp;&nbsp;&nbsp;On the League of Nations an agreement was reached. The party will stand as sponsor for the league and recommends a nationwide refer- endum of the people as to whether the United States shall enter the league. By the result of this poll the party agrees to abide.  |

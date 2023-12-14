@@ -1,0 +1,12 @@
+---
+layout: post
+title: "Today's News November 24, 2023 -- Part 3"
+tags: ['Weinberg']
+date: 2023-11-24
+---
+
+| Ddg Founder Says Google'S Phone, Manufacturing Partnerships Thwart Competition | Spotlight   Itt Files Antitrust Suit Avainst Att, Subsidiaries |
+|  |  |
+| Paul Wiseman, Michael Liedtke for the Associated Press | News Wire Article published in the Port Arthur News |
+| November 24, 2023 | June 11, 1977 |
+| &nbsp;&nbsp;&nbsp;&nbsp;WASHINGTON (AP) — Appearing in the biggest antitrust trial in a quarter century, DuckDuckGo founder Gabriel Weinberg testified Thursday that it was hard for his small search engine company to compete with Google because the powerhouse has deals with phone companies and equipment manufacturers to make its product the default search option on so many devices.<br>&nbsp;&nbsp;&nbsp;&nbsp;“We hit an obstacle with Google’s contracts,’' Weinberg said in U.S. District Court in Washington.<br>&nbsp;&nbsp;&nbsp;&nbsp;The U.S. Department of Justice argues that Google has smothered competition by paying companies such as Apple and Verizon to lock in its search engine as the default choice — the first one users see — on many laptops and smartphones. Google counters that it dominates the internet search market because its product is better than the competition.<br>&nbsp;&nbsp;&nbsp;&nbsp;Even when it holds the default spot on smartphones and other devices, Google argues, users can switch to rival search engines with a couple of clicks.<br>&nbsp;&nbsp;&nbsp;&nbsp;But Weinberg testified that getting use ...<br><br>Read the full article at<br>[https://apnews.com/article/google-antitrust-trial-search-engine-duckduckgo-b3d81d41a5cbf8d7c2cef824663f1f8a](https://apnews.com/article/google-antitrust-trial-search-engine-duckduckgo-b3d81d41a5cbf8d7c2cef824663f1f8a) | &nbsp;&nbsp;&nbsp;&nbsp;NEW YORK  UPI)   Ina legal battle of corporate behemoths, International Telephone and Telegraph filed a $150 milhon antitrust suit Friday against American Telephone & Telegraph and two AT&T subsidiaries. Western Electric Co and Bell Laboratories Inc<br>&nbsp;&nbsp;&nbsp;&nbsp;The suit. filed in U.S. District Court in New York City, alleged the three companies combined to prevent ITT from selling telephone equipment to AT&T<br>&nbsp;&nbsp;&nbsp;&nbsp;The court action pits ITT. the world’s largest conglomerate with $11 billion in assets spread over a panoply of tn- terests, against AT&T. the world’s largest communications company with some $86 Dillion in assets  |
