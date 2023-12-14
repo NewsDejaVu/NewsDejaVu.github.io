@@ -1,0 +1,12 @@
+---
+layout: post
+title: "Today's News December 3, 2023 -- Part 2"
+tags: ['Mcdaniel', 'Charley Mcclendon']
+date: 2023-12-03
+---
+
+| In Mike Mcdaniel, Josh Harris May Have A Blueprint For His Coaching Hire | New Lsu Head Coach Is Named  |
+|  |  |
+| Barry Svrluga for The Washington Post | News Wire Article published in the Jennings Daily News |
+| December 3, 2023 | January 8, 1962 |
+| &nbsp;&nbsp;&nbsp;&nbsp;Let’s assume Josh Harris spent the second half of the Miami Dolphins’ 45-15 dissection of his Washington Commanders looking away from the “action” and instead weighing who might be his next coach. At this point, how could he not? Given the scene Sunday, it’s so easy to imagine a scenario in which Harris looked across the field at Dolphins Coach Mike McDaniel with no small degree of envy and said, “Get me one of those.”<br>&nbsp;&nbsp;&nbsp;&nbsp;Sunday’s coaching matchup of McDaniel vs. Ron Rivera at FedEx Field was essentially unfair. One could teach the football version of differential calculus; the other struggles with basic addition. One masters three-dimensional chess; the other wrestles with tic-tac-toe.<br>&nbsp;&nbsp;&nbsp;&nbsp;All you need to know about how Sunday played out is that Rivera fired his defensive coordinator Nov. 24 and took over play-calling himself, and it took McDaniel all of three plays to get wideout Tyreek Hill — he of the fastest-in-the-league legs — in one-on-one coverage with rookie defensive back Quan Ma ...<br><br>Read the full article at<br>[https://www.washingtonpost.com/sports/2023/12/03/ron-rivera-mike-mcdaniel/](https://www.washingtonpost.com/sports/2023/12/03/ron-rivera-mike-mcdaniel/) | &nbsp;&nbsp;&nbsp;&nbsp;BATON ROUGE (AP)—Charley McClendon, an assistant = since 1953, today took over the head coaching job at Louisiana State University. He succeeds Paul Dietzel. who resigned to take the head couching post at Army.<br>&nbsp;&nbsp;&nbsp;&nbsp;Athletic Director Jim Corbett sald MeClencon will receive a four-year contract at $18,000 a year.<br>&nbsp;&nbsp;&nbsp;&nbsp;“Charley McClendon has been a heavy contributor to LSU's foot- ball success," the LSU athletic di- rector said in announcing the se- jection of McClendon, who re portedly was offered the head coaching job at the University o Kertucky.<br>&nbsp;&nbsp;&nbsp;&nbsp;McClendon, who beame Dietzel’: No. 1 assistant in 1955, was ir charge of the Bengal defense which has been among the bes in the nation for the last thre years.  |

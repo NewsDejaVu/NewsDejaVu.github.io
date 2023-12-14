@@ -123,7 +123,7 @@ def convert_json_to_md(todaysdate, source_folder=Path(os.getcwd(), '_json'), des
                 f'date: {todaysdate}\n',
                 "---\n\n",
                 f'| {original_title} | {headline} |\n',
-                f'| {''} | {''} |\n',
+                f'|  |  |\n',
                 f'| {original_byline} | {byline} |\n',
                 f"| {date} | {source_date} |\n",
                 f"| {original_article} | {article} |"
