@@ -20,15 +20,15 @@ Local newspapers frequently reprint articles that were made available to them vi
 
 ### Modern Newspaper Articles 
 
-We retrieve modern newspaper articles using newsapi.org. We remove social media handles and advertisements. 
+We retrieve modern newspaper articles using the newsapi.org API. We remove social media handles and advertisements and reproduce a truncated portion of the text in our posts, including a link to the full article. 
 
 ### Masking Named Entities
 
-For both modern and historical content, we mask named entities (people, locations, organisations and miscellaneous) before embedding them. This ensures that the similarity model does not rely on similar names in different newspaper articles. To do this, we trained a custom Named Entity Recognition (NER) model to detect spans of text corresponding to these entity types. Custom training was necessary to achieve good performance with robustness to OCR noise. We finetune a Roberta-Large model (Liu et. al, 2020) at a learning rate of 4.7e-05 with a batch size of 128 for 184 epochs. We then replace all detected entities by "[MASK]". 
+For both modern and historical content, we mask named entities (people, locations, organisations and miscellaneous) before embedding them. This ensures that the similarity model does not rely on similar names in different newspaper articles. To do this, we trained a custom Named Entity Recognition (NER) model to detect spans of text corresponding to these entity types. Custom training was necessary to achieve good performance with robustness to OCR noise. We finetune a Roberta-Large model (Liu et. al, 2020) at a learning rate of 4.7e-05 with a batch size of 128 for 184 epochs. We then replace all detected entities by "[MASK]". The ability to recognize named entities (Named Entity Recognition) also allows us to create "tags" for some of our posts.  
 
-### Finding Similar Stories  
+### Finding Similar Stories 
 
-To find historical articles that are semantically similar to modern articles, we learned a metric space, where the cosine distance between article embeddings captures semantic similarity. We contrastively trained a language model so that the embeddings of similar pairs of articles have similar embeddings and different articles do not. 
+Each modern article is paired with one of the most semantically similar. To find historical articles that are semantically similar to modern articles, we learned a metric space, where the cosine distance between article embeddings captures semantic similarity. We contrastively trained a language model so that the embeddings of similar pairs of articles have similar embeddings and different articles do not. 
 
 We created training data using articles from [AllSides.com](https://www.allsides.com/), a news aggregator that collates articles on the same story from multiple news sites. We extract pairs of articles from these groupings and use these as positive pairs in our training data. For negative pairs, we use pairs that have a small cosine distance when evaluated with the untrained model, but do not come from the same story, and do not share the same topic tags, according to All Sides. 
 

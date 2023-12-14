@@ -16,11 +16,11 @@ Local newspapers frequently reprint articles that were made available to them vi
 
 ### Modern Newspaper Articles 
 
-We retrieve modern newspaper articles using newsapi.org. We remove social media handles and advertisements. 
+We retrieve modern newspaper articles using the newsapi.org API. We remove social media handles and advertisements and reproduce a truncated portion of the text in our posts, including a link to the full article.
 
 ### Masking Named Entities
 
-For both modern and historical content, we mask named entities (people, locations, organisations and miscellaneous) before embedding them. This ensures that the similarity model does not rely on similar names in different newspaper articles. To do this, we trained a custom Named Entity Recognition (NER) model to detect spans of text corresponding to these entity types. Custom training was necessary to achieve good performance with robustness to OCR noise. We finetune a Roberta-Large model (Liu et. al, 2020) at a learning rate of 4.7e-05 with a batch size of 128 for 184 epochs. We then replace all detected entities by "[MASK]". 
+For both modern and historical content, we mask named entities (people, locations, organisations and miscellaneous) before embedding them. This ensures that the similarity model does not rely on similar names in different newspaper articles. To do this, we trained a custom Named Entity Recognition (NER) model to detect spans of text corresponding to these entity types. Custom training was necessary to achieve good performance with robustness to OCR noise. We finetune a Roberta-Large model (Liu et. al, 2020) at a learning rate of 4.7e-05 with a batch size of 128 for 184 epochs. We then replace all detected entities by "[MASK]". The ability to recognize named entities (Named Entity Recognition) also allows us to create "tags" for some of our posts.
 
 ### Finding Similar Stories  
 

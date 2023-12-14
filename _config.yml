@@ -48,7 +48,7 @@ google_analytics: G-MZCLNR9M8W
 
 show_excerpts: true
 
-paginate: 4
+paginate: 5
 paginate_path: "/blog/page:num/"
 
 jekyll-archives:
