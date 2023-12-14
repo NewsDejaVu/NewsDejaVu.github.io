@@ -72,7 +72,7 @@ def convert_json_to_md(todaysdate, source_folder=Path(os.getcwd(), '_json'), des
                 randint2 = random.randint(0, len(nearest_hist_news)-1)
                 news = nearest_hist_news[randint2]
                 date = '{dt:%B} {dt.day}, {dt.year}'.format(dt=datetime.datetime.strptime(todaysdate, '%Y-%m-%d'))
-                post_title = f'Today\'s News {date} -- Part {i}'
+                post_title = f'Today\'s News {date} -- Part {i + 1}'
             else:
                 print('news has length zero')
                 continue
