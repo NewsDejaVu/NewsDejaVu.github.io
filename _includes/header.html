@@ -50,8 +50,18 @@
     <h2 class="center-subheader">Cambridge, Massachusetts,</h2>
       <div class="current-date" id="current-date">
         <script>
-          const options = { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' };
+          const options = {weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' };
           document.getElementById('current-date').innerHTML = new Date().toLocaleDateString('en-US', options);
+          // To get Date of the Monday of the current week, use the following
+          // function getMonday(d) {
+          //   d = new Date(d);
+          //   var day = d.getDay(),
+          //     diff = d.getDate() - day + (day == 0 ? -6 : 1); // adjust when day is sunday
+          //   return new Date(d.setDate(diff));
+          // }
+          // // const options = {weekday: 'long'; year: 'numeric', month: 'long', day: 'numeric' };
+          // const options = {year: 'numeric', month: 'long', day: 'numeric' };
+          // document.getElementById('current-date').innerHTML = 'Week of ' + new getMonday(new Date()).toLocaleDateString('en-US', options);
         </script>
       </div>
     <h2 class="right-subheader">10 Cents</h2>

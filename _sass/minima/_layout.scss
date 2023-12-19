@@ -32,6 +32,59 @@
   left: 310px;
 }
 
+// Declaring Font Faces
+
+// See https://www.onlinewebfonts.com/download/527ea5851ca62a9a758a44dc39437eae to import fonts
+@font-face {
+  font-family: "Old English Text MT V2";
+  src: url("https://db.onlinewebfonts.com/t/527ea5851ca62a9a758a44dc39437eae.eot");
+  src: url("https://db.onlinewebfonts.com/t/527ea5851ca62a9a758a44dc39437eae.eot?#iefix")format("embedded-opentype"),
+  url("https://db.onlinewebfonts.com/t/527ea5851ca62a9a758a44dc39437eae.woff2")format("woff2"),
+  url("https://db.onlinewebfonts.com/t/527ea5851ca62a9a758a44dc39437eae.woff")format("woff"),
+  url("https://db.onlinewebfonts.com/t/527ea5851ca62a9a758a44dc39437eae.ttf")format("truetype"),
+  url("https://db.onlinewebfonts.com/t/527ea5851ca62a9a758a44dc39437eae.svg#Old English Text MT V2")format("svg");
+}
+
+@font-face {
+  font-family: "High Tower Text";
+  src: url("https://db.onlinewebfonts.com/t/9e23421978544d8e00a00eb47740d280.eot");
+  src: url("https://db.onlinewebfonts.com/t/9e23421978544d8e00a00eb47740d280.eot?#iefix")format("embedded-opentype"),
+  url("https://db.onlinewebfonts.com/t/9e23421978544d8e00a00eb47740d280.woff2")format("woff2"),
+  url("https://db.onlinewebfonts.com/t/9e23421978544d8e00a00eb47740d280.woff")format("woff"),
+  url("https://db.onlinewebfonts.com/t/9e23421978544d8e00a00eb47740d280.ttf")format("truetype"),
+  url("https://db.onlinewebfonts.com/t/9e23421978544d8e00a00eb47740d280.svg#High Tower Text")format("svg");
+}
+
+@font-face {
+  font-family: "Engravers MT";
+  src: url("https://db.onlinewebfonts.com/t/3135c98efb051f346203c2f2ed708638.eot");
+  src: url("https://db.onlinewebfonts.com/t/3135c98efb051f346203c2f2ed708638.eot?#iefix")format("embedded-opentype"),
+  url("https://db.onlinewebfonts.com/t/3135c98efb051f346203c2f2ed708638.woff2")format("woff2"),
+  url("https://db.onlinewebfonts.com/t/3135c98efb051f346203c2f2ed708638.woff")format("woff"),
+  url("https://db.onlinewebfonts.com/t/3135c98efb051f346203c2f2ed708638.ttf")format("truetype"),
+  url("https://db.onlinewebfonts.com/t/3135c98efb051f346203c2f2ed708638.svg#Engravers MT")format("svg");
+}
+
+@font-face {
+  font-family: "Gloucester MT Extra Condensed";
+  src: url("https://db.onlinewebfonts.com/t/141449d91ea53b0c3f08600f47ecbc0c.eot");
+  src: url("https://db.onlinewebfonts.com/t/141449d91ea53b0c3f08600f47ecbc0c.eot?#iefix")format("embedded-opentype"),
+  url("https://db.onlinewebfonts.com/t/141449d91ea53b0c3f08600f47ecbc0c.woff2")format("woff2"),
+  url("https://db.onlinewebfonts.com/t/141449d91ea53b0c3f08600f47ecbc0c.woff")format("woff"),
+  url("https://db.onlinewebfonts.com/t/141449d91ea53b0c3f08600f47ecbc0c.ttf")format("truetype"),
+  url("https://db.onlinewebfonts.com/t/141449d91ea53b0c3f08600f47ecbc0c.svg#Gloucester MT Extra Condensed")format("svg");
+}
+
+@font-face {
+  font-family: "Times New Roman";
+  src: url("https://db.onlinewebfonts.com/t/32441506567156636049eb850b53f02a.eot");
+  src: url("https://db.onlinewebfonts.com/t/32441506567156636049eb850b53f02a.eot?#iefix")format("embedded-opentype"),
+  url("https://db.onlinewebfonts.com/t/32441506567156636049eb850b53f02a.woff2")format("woff2"),
+  url("https://db.onlinewebfonts.com/t/32441506567156636049eb850b53f02a.woff")format("woff"),
+  url("https://db.onlinewebfonts.com/t/32441506567156636049eb850b53f02a.ttf")format("truetype"),
+  url("https://db.onlinewebfonts.com/t/32441506567156636049eb850b53f02a.svg#Times New Roman")format("svg");
+}
+
 // Helpful Code for creating this section
 // Also see how you integrated the parts of this code into the /_includes/header.html file
 // https://talk.jekyllrb.com/t/how-to-add-a-logo-to-minima-theme/4120
@@ -55,7 +108,7 @@
     @include relative-font-size(8.5);
     font-weight: bolder;
     display: block;
-    font-family: "Old English Text MT", "Wide Latin", "Algerian", "Times New Roman";
+    font-family: "Old English Text MT V2";
     letter-spacing: 2px;
     margin-top: $spacing-unit * 1.075;
     margin-bottom: $spacing-unit * 1;
@@ -209,7 +262,7 @@
     font-style: italic;
     font-size: 14px;
     font-weight: 700;
-    left: 380px;
+    left: 400px;
     letter-spacing: 1px;
     position: relative;
     text-align: center;
@@ -446,9 +499,13 @@
   @include relative-font-size(1.75);
 }
 
+
 .post-list {
-  margin-left: 0;
+  position: relative;
   list-style: none;
+  width: 1200px;
+  left: -260px;
+  
 
   .post-link {
     line-height: $base-line-height * 0.575;
@@ -467,6 +524,7 @@
   // See following source for how to do text fade:
   // https://stackoverflow.com/questions/11837606/fading-out-text-at-bottom-of-a-section-with-transparent-div-but-height-stays-un
   
+
   table {
     display: inline-block;
     table-layout: fixed;
@@ -519,9 +577,9 @@
   // First child
   // Controls Each articles Headline for Post on main page
   table tr:nth-child(5n-4) {
-    @include relative-font-size(3.25);
+    @include relative-font-size(2.35);
     text-align: center;
-    font-family: "Gloucester MT";
+    font-family: "Gloucester MT Extra Condensed";
     color: black;
     font-weight: 550;
     text-transform: uppercase;
@@ -583,7 +641,7 @@
   display: none;
 }
 
-// Change How Post Titles Appear on Home page here
+// Change How Overarching Post Titles Appear on Home page here
 .post-link {
   display: block;
   position: relative;
@@ -600,7 +658,7 @@
   padding-top: 10px;
   padding-bottom: 30px;
   @media screen and (min-width: $on-large) {
-    @include relative-font-size(4.5);
+    @include relative-font-size(3.35);
   }
 }
 
@@ -622,7 +680,6 @@
 
 .post-title {
   position: relative;
-  left: 0px;
   font-family: "Times New Roman";
   font-weight: 800;
   font-style: oblique;
@@ -634,9 +691,11 @@
   top: -10px;
   padding-top: 10px;
   padding-bottom: 30px;
+  width: 1200px;
+  left: -230px;
 
   @media screen and (min-width: $on-large) {
-    @include relative-font-size(4.5);
+    @include relative-font-size(3.35);
   }
 
 }
@@ -648,6 +707,9 @@
 
 .post-content {
   margin-bottom: $spacing-unit;
+  position: relative;
+  width: 1200px;
+  left: -230px;
 
   tbody {
     vertical-align: top;
@@ -686,9 +748,9 @@
 
   // Controls Each articles Headline for Post on its own page
   table tr:nth-child(1) {
-    @include relative-font-size(3.25);
+    @include relative-font-size(2.35);
     text-align: center;
-    font-family: "Gloucester MT";
+    font-family: "Gloucester MT Extra Condensed";
     color: black;
     font-weight: 550;
     text-transform: uppercase;
@@ -877,3 +939,139 @@
     width: calc(50% - (#{$spacing-unit} / 2));
   }
 }
+
+
+/**
+ * Media Queries to Make Website Responsive
+ */
+
+// Major breakpoints at less than 600px, 601px, 768px 992px 1200px
+
+// For the following to work, must include the next line of html in the custom-head
+// <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+ @media only screen and (max-width: 600px) and (orientation: landscape) {
+
+  .trigger {
+    width: 100%;
+  }
+
+  .subheader {
+    width: 100%;
+  }
+
+ }
+
+ @media only screen and (max-width: 600px) and (orientation: portrait) {
+  
+  .trigger {
+    width: 100%;
+  }
+
+  .subheader {
+    width: 100%;
+  }
+
+ }
+
+ @media only screen and (min-width: 601px) and (orientation: landscape) {
+
+  .trigger {
+    width: 100%;
+  }
+
+  .subheader {
+    width: 100%;
+  }
+
+ }
+
+ @media only screen and (min-width: 601px) and (orientation: portrait) {
+
+  .trigger {
+    width: 100%;
+  }
+
+  .subheader {
+    width: 100%;
+  }
+
+ }
+
+ @media only screen and (min-width: 768px) and (orientation: landscape) {
+
+  .trigger {
+    width: 100%;
+  }
+
+  .subheader {
+    width: 100%;
+  }
+
+ }
+
+ @media only screen and (min-width: 768px) and (orientation: portrait) {
+
+  .trigger {
+    width: 100%;
+  }
+
+  .subheader {
+    width: 100%;
+  }
+
+ }
+
+ @media only screen and (min-width: 992px) and (orientation: landscape) {
+
+  .trigger {
+    width: 100%;
+  }
+
+  .subheader {
+    width: 100%;
+  }
+
+ }
+
+ @media only screen and (min-width: 992px) and (orientation: portrait) {
+
+  .trigger {
+    width: 100%;
+  }
+
+  .subheader {
+    width: 100%;
+  }
+
+ }
+
+ @media only screen and (min-width: 1200px) and (orientation: landscape) {
+
+  .trigger {
+    width: 100%;
+  }
+
+  .subheader {
+    width: 100%;
+  }
+
+ }
+
+ @media only screen and (min-width: 1200px) and (orientation: portrait) {
+
+  .trigger {
+    width: 100%;
+  }
+
+  .subheader {
+    width: 100%;
+  }
+
+  //  create a container for elements in banner
+  // See if need to create more breakpoints or make font size and text line spacing dynamic
+
+ }
+
+
+
