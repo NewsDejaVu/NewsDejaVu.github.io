@@ -957,7 +957,7 @@
  * Month Archive
  */
 
- .month-archive {
+.month-archive {
   color: black;
   position: relative;
   text-align: center;
@@ -976,15 +976,14 @@
     font-weight: bold;
   }
 
- }
+}
 
- .tag-archive {
-    color: black;
-    position: relative;
-    text-align: center;
-    line-height: $base-line-height * 1.5;
-
-
+.tag-archive {
+  color: black;
+  position: relative;
+  text-align: center;
+  line-height: $base-line-height * 1.5;
+  
   li {
     list-style-type: none;
   }
@@ -993,13 +992,31 @@
     font-weight: bold;
   }
 
- }
+}
 
- .category-archive {
-    color: black;
-    position: relative;
-    text-align: center;
-    line-height: $base-line-height * 1.5;
+// Following makes tag name display horizontally
+.tag-names {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+
+  ul {
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+  }
+  
+  li {
+    margin: 0 10px;
+  }
+}
+
+.category-archive {
+  color: black;
+  position: relative;
+  text-align: center;
+  line-height: $base-line-height * 1.5;
 
 
   li {

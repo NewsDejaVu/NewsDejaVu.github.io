@@ -2,7 +2,7 @@
 layout: post
 # Need to use "\n" to convert to newlines
 title: "SPECIAL ISSUE: University Hearings Then and Now\n-- Part 3"
-tags: [University]
+tags: [College]
 date: 2023-12-07
 ---
 
