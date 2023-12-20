@@ -23,13 +23,58 @@
 
 }
 
-// For changing the tabs (i.e., Home, About, etc.)
-.trigger {
-  font-weight: bold;
-  margin-top: 0;
-  margin-bottom: 0;
-  position: relative;
-  left: 310px;
+
+// Declaring Font Faces
+
+// See https://www.onlinewebfonts.com/download/527ea5851ca62a9a758a44dc39437eae to import fonts
+@font-face {
+  font-family: "Old English Text MT V2";
+  src: url("https://db.onlinewebfonts.com/t/527ea5851ca62a9a758a44dc39437eae.eot");
+  src: url("https://db.onlinewebfonts.com/t/527ea5851ca62a9a758a44dc39437eae.eot?#iefix")format("embedded-opentype"),
+  url("https://db.onlinewebfonts.com/t/527ea5851ca62a9a758a44dc39437eae.woff2")format("woff2"),
+  url("https://db.onlinewebfonts.com/t/527ea5851ca62a9a758a44dc39437eae.woff")format("woff"),
+  url("https://db.onlinewebfonts.com/t/527ea5851ca62a9a758a44dc39437eae.ttf")format("truetype"),
+  url("https://db.onlinewebfonts.com/t/527ea5851ca62a9a758a44dc39437eae.svg#Old English Text MT V2")format("svg");
+}
+
+@font-face {
+  font-family: "High Tower Text";
+  src: url("https://db.onlinewebfonts.com/t/9e23421978544d8e00a00eb47740d280.eot");
+  src: url("https://db.onlinewebfonts.com/t/9e23421978544d8e00a00eb47740d280.eot?#iefix")format("embedded-opentype"),
+  url("https://db.onlinewebfonts.com/t/9e23421978544d8e00a00eb47740d280.woff2")format("woff2"),
+  url("https://db.onlinewebfonts.com/t/9e23421978544d8e00a00eb47740d280.woff")format("woff"),
+  url("https://db.onlinewebfonts.com/t/9e23421978544d8e00a00eb47740d280.ttf")format("truetype"),
+  url("https://db.onlinewebfonts.com/t/9e23421978544d8e00a00eb47740d280.svg#High Tower Text")format("svg");
+}
+
+@font-face {
+  font-family: "Engravers MT";
+  src: url("https://db.onlinewebfonts.com/t/3135c98efb051f346203c2f2ed708638.eot");
+  src: url("https://db.onlinewebfonts.com/t/3135c98efb051f346203c2f2ed708638.eot?#iefix")format("embedded-opentype"),
+  url("https://db.onlinewebfonts.com/t/3135c98efb051f346203c2f2ed708638.woff2")format("woff2"),
+  url("https://db.onlinewebfonts.com/t/3135c98efb051f346203c2f2ed708638.woff")format("woff"),
+  url("https://db.onlinewebfonts.com/t/3135c98efb051f346203c2f2ed708638.ttf")format("truetype"),
+  url("https://db.onlinewebfonts.com/t/3135c98efb051f346203c2f2ed708638.svg#Engravers MT")format("svg");
+}
+
+@font-face {
+  font-family: "Gloucester MT Extra Condensed";
+  src: url("https://db.onlinewebfonts.com/t/141449d91ea53b0c3f08600f47ecbc0c.eot");
+  src: url("https://db.onlinewebfonts.com/t/141449d91ea53b0c3f08600f47ecbc0c.eot?#iefix")format("embedded-opentype"),
+  url("https://db.onlinewebfonts.com/t/141449d91ea53b0c3f08600f47ecbc0c.woff2")format("woff2"),
+  url("https://db.onlinewebfonts.com/t/141449d91ea53b0c3f08600f47ecbc0c.woff")format("woff"),
+  url("https://db.onlinewebfonts.com/t/141449d91ea53b0c3f08600f47ecbc0c.ttf")format("truetype"),
+  url("https://db.onlinewebfonts.com/t/141449d91ea53b0c3f08600f47ecbc0c.svg#Gloucester MT Extra Condensed")format("svg");
+}
+
+@font-face {
+  font-family: "Times New Roman";
+  src: url("https://db.onlinewebfonts.com/t/32441506567156636049eb850b53f02a.eot");
+  src: url("https://db.onlinewebfonts.com/t/32441506567156636049eb850b53f02a.eot?#iefix")format("embedded-opentype"),
+  url("https://db.onlinewebfonts.com/t/32441506567156636049eb850b53f02a.woff2")format("woff2"),
+  url("https://db.onlinewebfonts.com/t/32441506567156636049eb850b53f02a.woff")format("woff"),
+  url("https://db.onlinewebfonts.com/t/32441506567156636049eb850b53f02a.ttf")format("truetype"),
+  url("https://db.onlinewebfonts.com/t/32441506567156636049eb850b53f02a.svg#Times New Roman")format("svg");
 }
 
 // Helpful Code for creating this section
@@ -38,31 +83,50 @@
 // https://github.com/AppliedLogicSystems/ALSProlog/commit/e49a98b7fb5e7039fe135eb94e9d9572de94ec82
 // https://github.com/UriShX/Jekyll-portfolio/tree/master
 
-.banner {
-  position: relative;
-  color: white;
-  display: block;
-  margin-top: 0;
-  text-decoration: none;
+.banner-break {
+  margin-top:0;
+  margin-bottom: 0;
+  line-height: $base-line-height;
+}
 
-  hr{
-    margin-top:0;
-    margin-bottom: 0;
-    line-height: $base-line-height;
+.banner {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  color: black;
+  text-decoration: none;
+  justify-content: center;
+  margin-top: 0%;
+  margin-bottom: $spacing-unit * 0.25;
+
+  .phrase{
+    text-align: center;
+    font-weight: bold;
+    font-style: normal;
+    font-family: "High Tower Text";
+    border: 3px solid black;
+    line-height: 20px;
+    padding: 10px 10px 10px 10px;
+    // margin-top: $spacing-unit * 1;
+    // margin-bottom: $spacing-unit * 2;
+    margin-right: $spacing-unit * 0.5;
+    font-size: 13.75px;
+    margin-top: 0%;
+    margin-bottom: 0%;
   }
+  
 
   h1 {
     @include relative-font-size(8.5);
     font-weight: bolder;
     display: block;
-    font-family: "Old English Text MT", "Wide Latin", "Algerian", "Times New Roman";
+    font-family: "Old English Text MT V2";
     letter-spacing: 2px;
-    margin-top: $spacing-unit * 1.075;
-    margin-bottom: $spacing-unit * 1;
-    float: left;
-    position: relative;
-    left: 300px;
+    // margin-top: $spacing-unit * 0.0001;
+    // margin-bottom: $spacing-unit * 1;
     text-align: center;
+    margin-top: 0%;
+    margin-bottom: 0%;
 
     a:hover {
       text-decoration: none;
@@ -81,6 +145,39 @@
     
   }
 
+  .weatherforecastbox{
+    line-height: 95%;
+    margin-top: $spacing-unit * 0.25;
+    margin-bottom: 0%;
+   
+  
+    h1 {
+      font-family: "Engravers MT";
+      font-size: 22px;
+      font-style: normal;
+      text-align: center;
+      font-weight: bold;
+      margin-bottom: 2.5%;
+    }
+    
+    p {
+      width: 225px;
+      height: 100px;
+      font-style: normal;
+      text-align: center; 
+      font-size: 12px; 
+      overflow: hidden;
+    }
+  
+    // How to hide the scroll bar until hover
+  
+    p:hover {
+      overflow-y: auto;
+      overflow-x: auto;
+      background-color: transparent;
+    }
+  }
+
 }
 
 
@@ -93,226 +190,265 @@
   }
 }
 
-.phrase{
-  text-align: center;
-  font-weight: bold;
-  font-style: normal;
-  font-family: "High Tower Text";
-  position: relative;
-  width: 15.75%;
-  left: -870px;
-  border: 3px solid black;
-  line-height: 20px;
-  padding: 10px 10px 10px 10px;
-  display: inline-block;
-  margin-top: $spacing-unit * 1;
-  font-size: 13.75px;
-  top: -50px;
-}
 
-
-.weatherforecastbox{
-  position: relative;
-  display: inline-block;
-  margin-top: 0.75%;
-  left: 55px;
-  line-height: 95%;
-
-  h1 {
-    font-size: 22px;
-    font-style: normal;
-    margin-bottom: 2.5%;
-    text-align: center;
-    font-weight: bold;
-  }
-  
-  p {
-    width: 225px;
-    height: 100px;
-    font-style: normal;
-    text-align: center; 
-    font-size: 12px; 
-    overflow: hidden;
-  }
-
-  // How to hide the scroll bar until hover
-
-  p:hover {
-    overflow-y: auto;
-    overflow-x: auto;
-    background-color: transparent;
-  }
-}
 
 .subheader{
   text-transform: uppercase;
   border-top: 2px solid black;
   border-bottom: 2px solid black;
   line-height: $base-line-height * 1;
-  margin-top: $spacing-unit * -1;
-  position: relative;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  color: black;
+  padding-top: $spacing-unit * 0.4;
+  padding-bottom: $spacing-unit * 0.4;
 
   .left-subheader {
     color: black;
-    display: inline-block;
     font-weight: bolder;
     font-family: "Engravers MT";
     font-style: italic;
     font-size: 14px;
     font-weight: 700;
-    left: 10px;
     letter-spacing: 1px;
-    position: relative;
     text-align: center;
-    margin-top: $spacing-unit * 0.4;
+    margin-top: 0%;
+    margin-bottom: 0%;
+    position: relative;
+    right: $spacing-unit * 6.5;
 
   }
 
   .center-subheader {
     color: black;
-    display: inline-block;
+    // display: inline-block;
     font-weight: bolder;
     font-family: "Engravers MT";
     font-style: italic;
     font-size: 14px;
     font-weight: 700;
-    left: 200px;
+    // left: 200px;
     letter-spacing: 1px;
-    position: relative;
+    // position: relative;
     text-align: center;
-    margin-top: $spacing-unit * 0.4;
-
+    // margin-top: $spacing-unit * 0.4;
+    margin-top: 0%;
+    margin-bottom: 0%;
+    position: relative;
+    right: $spacing-unit * 2;
 
   }
 
   .current-date {
     color: black;
-    display: inline-block;
+    // display: inline-block;
     font-weight: bolder;
     font-family: "Engravers MT";
     font-style: italic;
     font-size: 14px;
     font-weight: 700;
-    left: 200px;
+    // left: 200px;
     letter-spacing: 1px;
-    position: relative;
+    // position: relative;
     text-align: center;
-    margin-top: $spacing-unit * 0.4;
+    margin-top: 0%;
+    margin-bottom: 0%;
+    position: relative;
+    right: $spacing-unit * 2;
 
   }
 
   .right-subheader {
     color: black;
-    display: inline-block;
+    // display: inline-block;
     font-weight: bolder;
     font-family: "Engravers MT";
     font-style: italic;
     font-size: 14px;
     font-weight: 700;
-    left: 380px;
+    // left: 400px;
     letter-spacing: 1px;
+    // position: relative;
+    text-align: center;
+    // margin-top: $spacing-unit * 0.4;
+    margin-top: 0%;
+    margin-bottom: 0%;
     position: relative;
-    text-align: center;
-    margin-top: $spacing-unit * 0.4;
+    left: $spacing-unit * 4.25;
 
   }
 
 }
 
-.site-nav {
-  position: absolute;
-  top: 9px;
-  right: $spacing-unit * .5;
+// See https://www.w3schools.com/howto/howto_css_dropdown_navbar.asp for this code
+
+.navbar {
+  overflow: hidden;
   background-color: $background-color;
-  border: 1px solid $border-color-01;
-  border-radius: 5px;
-  text-align: right;
-
-  .nav-trigger {
-    display: none;
-  }
-
-  .menu-icon {
-    float: right;
-    width: 36px;
-    height: 26px;
-    line-height: 0;
-    padding-top: 10px;
-    text-align: center;
-
-    > svg path {
-      fill: $border-color-03;
-    }
-  }
-
-  label[for="nav-trigger"] {
-    display: block;
-    float: right;
-    width: 36px;
-    height: 36px;
-    z-index: 2;
-    cursor: pointer;
-  }
-
-  input ~ .trigger {
-    clear: both;
-    display: none;
-  }
-
-  input:checked ~ .trigger {
-    display: block;
-    padding-bottom: 5px;
-  }
-
-  .home-link {
-    color: $text-color;
-    padding: 0px 20px;
-
-  }
-
-  .page-link {
-    color: $text-color;
-    line-height: $base-line-height;
-    display: block;
-    padding: 5px 10px;
-
-    // Gaps between nav items, but not on the last one
-    &:not(:last-child) {
-      margin-right: 0;
-    }
-    margin-left: 20px;
-  }
-
-
-  @media screen and (min-width: $on-medium) {
-    position: static;
-    float: right;
-    border: none;
-    background-color: inherit;
-
-    label[for="nav-trigger"] {
-      display: none;
-    }
-
-    .menu-icon {
-      display: none;
-    }
-
-    input ~ .trigger {
-      display: block;
-    }
-
-    .page-link {
-      display: inline;
-      padding: 0;
-
-      &:not(:last-child) {
-        margin-right: 20px;
-      }
-      margin-left: auto;
-    }
-  }
 }
+
+.navbar a {
+  float: left;
+  font-size: 16px;
+  color: $background-color;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.dropdown {
+  float: left;
+  overflow: hidden;
+}
+
+.dropdown .dropbtn {
+  font-size: 16px;  
+  border: none;
+  outline: none;
+  color: black;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+}
+
+.navbar a:hover, .dropdown:hover .dropbtn {
+  background-color: grey;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+// .site-nav {
+//   position: relative;
+//   top: 9px;
+//   right: $spacing-unit * 0.01;
+//   background-color: $background-color;
+//   border: 1px solid $border-color-01;
+//   border-radius: 5px;
+//   text-align: right;
+//   margin-top: 0%;
+//   margin-bottom: 0%;
+//   font-weight: bold;
+
+//   // For changing the tabs (i.e., Home, About, etc.)
+//   // .trigger {
+//   //   font-weight: bold;
+//   //   margin-top: 0%;
+//   //   margin-bottom: 0%;
+//   //   position: relative;
+//   // }
+
+//   .nav-trigger {
+//     display: none;
+//   }
+
+//   .menu-icon {
+//     float: right;
+//     width: 36px;
+//     height: 26px;
+//     line-height: 0;
+//     padding-top: 10px;
+//     text-align: center;
+
+//     > svg path {
+//       fill: $border-color-03;
+//     }
+//   }
+
+//   label[for="nav-trigger"] {
+//     display: block;
+//     float: right;
+//     width: 36px;
+//     height: 36px;
+//     z-index: 2;
+//     cursor: pointer;
+//   }
+
+//   input ~ .trigger {
+//     clear: both;
+//     display: none;
+//   }
+
+//   input:checked ~ .trigger {
+//     display: block;
+//     padding-bottom: 5px;
+//   }
+
+//   .home-link {
+//     color: $text-color;
+//     padding: 0px 20px;
+
+//   }
+
+//   .page-link {
+//     color: $text-color;
+//     line-height: $base-line-height;
+//     display: block;
+//     padding: 5px 10px;
+
+//     // Gaps between nav items, but not on the last one
+//     &:not(:last-child) {
+//       margin-right: 0;
+//     }
+//     margin-left: 20px;
+//   }
+
+
+//   @media screen and (min-width: $on-medium) {
+//     position: static;
+//     float: right;
+//     border: none;
+//     background-color: inherit;
+
+//     label[for="nav-trigger"] {
+//       display: none;
+//     }
+
+//     .menu-icon {
+//       display: none;
+//     }
+
+//     input ~ .trigger {
+//       display: block;
+//     }
+
+//     .page-link {
+//       display: inline;
+//       padding: 0;
+
+//       &:not(:last-child) {
+//         margin-right: 20px;
+//       }
+//       margin-left: auto;
+//     }
+//   }
+// }
 
 
 
@@ -446,9 +582,13 @@
   @include relative-font-size(1.75);
 }
 
+
 .post-list {
-  margin-left: 0;
+  position: relative;
   list-style: none;
+  width: 1200px;
+  left: -260px;
+  
 
   .post-link {
     line-height: $base-line-height * 0.575;
@@ -467,6 +607,7 @@
   // See following source for how to do text fade:
   // https://stackoverflow.com/questions/11837606/fading-out-text-at-bottom-of-a-section-with-transparent-div-but-height-stays-un
   
+
   table {
     display: inline-block;
     table-layout: fixed;
@@ -519,9 +660,9 @@
   // First child
   // Controls Each articles Headline for Post on main page
   table tr:nth-child(5n-4) {
-    @include relative-font-size(3.25);
+    @include relative-font-size(2.35);
     text-align: center;
-    font-family: "Gloucester MT";
+    font-family: "Gloucester MT Extra Condensed";
     color: black;
     font-weight: 550;
     text-transform: uppercase;
@@ -583,7 +724,7 @@
   display: none;
 }
 
-// Change How Post Titles Appear on Home page here
+// Change How Overarching Post Titles Appear on Home page here
 .post-link {
   display: block;
   position: relative;
@@ -600,7 +741,7 @@
   padding-top: 10px;
   padding-bottom: 30px;
   @media screen and (min-width: $on-large) {
-    @include relative-font-size(4.5);
+    @include relative-font-size(2.85);
   }
 }
 
@@ -622,7 +763,6 @@
 
 .post-title {
   position: relative;
-  left: 0px;
   font-family: "Times New Roman";
   font-weight: 800;
   font-style: oblique;
@@ -634,9 +774,11 @@
   top: -10px;
   padding-top: 10px;
   padding-bottom: 30px;
+  width: 1200px;
+  left: -230px;
 
   @media screen and (min-width: $on-large) {
-    @include relative-font-size(4.5);
+    @include relative-font-size(2.85);
   }
 
 }
@@ -648,6 +790,9 @@
 
 .post-content {
   margin-bottom: $spacing-unit;
+  position: relative;
+  width: 1200px;
+  left: -230px;
 
   tbody {
     vertical-align: top;
@@ -686,9 +831,9 @@
 
   // Controls Each articles Headline for Post on its own page
   table tr:nth-child(1) {
-    @include relative-font-size(3.25);
+    @include relative-font-size(2.35);
     text-align: center;
-    font-family: "Gloucester MT";
+    font-family: "Gloucester MT Extra Condensed";
     color: black;
     font-weight: 550;
     text-transform: uppercase;
@@ -812,7 +957,7 @@
  * Month Archive
  */
 
- .month-archive {
+.month-archive {
   color: black;
   position: relative;
   text-align: center;
@@ -831,13 +976,47 @@
     font-weight: bold;
   }
 
- }
+}
 
- .tag-archive {
-    color: black;
-    position: relative;
-    text-align: center;
-    line-height: $base-line-height * 1.5;
+.tag-archive {
+  color: black;
+  position: relative;
+  text-align: center;
+  line-height: $base-line-height * 1.5;
+  
+  li {
+    list-style-type: none;
+  }
+
+  a {
+    font-weight: bold;
+  }
+
+}
+
+// Following makes tag names display horizontally
+.tag-names {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+
+  ul {
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+  }
+  
+  li {
+    margin: 0 10px;
+  }
+}
+
+.category-archive {
+  color: black;
+  position: relative;
+  text-align: center;
+  line-height: $base-line-height * 1.5;
 
 
   li {
@@ -848,23 +1027,24 @@
     font-weight: bold;
   }
 
- }
+}
 
- .category-archive {
-    color: black;
-    position: relative;
-    text-align: center;
-    line-height: $base-line-height * 1.5;
+// Following makes category names display horizontally
+.category-names {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
 
-
+  ul {
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+  }
+  
   li {
-    list-style-type: none;
+    margin: 0 10px;
   }
-
-  a {
-    font-weight: bold;
-  }
-
 }
 
 
@@ -877,3 +1057,139 @@
     width: calc(50% - (#{$spacing-unit} / 2));
   }
 }
+
+
+/**
+ * Media Queries to Make Website Responsive
+ */
+
+// Major breakpoints at less than 600px, 601px, 768px 992px 1200px
+
+// For the following to work, must include the next line of html in the custom-head
+// <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+ @media only screen and (max-width: 600px) and (orientation: landscape) {
+
+  .site-nav {
+    width: 100%;
+  }
+
+  .subheader {
+    width: 100%;
+  }
+
+ }
+
+ @media only screen and (max-width: 600px) and (orientation: portrait) {
+  
+  .site-nav {
+    width: 100%;
+  }
+
+  .subheader {
+    width: 100%;
+  }
+
+ }
+
+ @media only screen and (min-width: 601px) and (orientation: landscape) {
+
+  .site-nav {
+    width: 100%;
+  }
+
+  .subheader {
+    width: 100%;
+  }
+
+ }
+
+ @media only screen and (min-width: 601px) and (orientation: portrait) {
+
+  .site-nav {
+    width: 100%;
+  }
+
+  .subheader {
+    width: 100%;
+  }
+
+ }
+
+ @media only screen and (min-width: 768px) and (orientation: landscape) {
+
+  .site-nav {
+    width: 100%;
+  }
+
+  .subheader {
+    width: 100%;
+  }
+
+ }
+
+ @media only screen and (min-width: 768px) and (orientation: portrait) {
+
+  .site-nav {
+    width: 100%;
+  }
+
+  .subheader {
+    width: 100%;
+  }
+
+ }
+
+ @media only screen and (min-width: 992px) and (orientation: landscape) {
+
+  .site-nav {
+    width: 100%;
+  }
+
+  .subheader {
+    width: 100%;
+  }
+
+ }
+
+ @media only screen and (min-width: 992px) and (orientation: portrait) {
+
+  .site-nav {
+    width: 100%;
+  }
+
+  .subheader {
+    width: 100%;
+  }
+
+ }
+
+ @media only screen and (min-width: 1200px) and (orientation: landscape) {
+
+  .site-nav {
+    width: 100%;
+  }
+
+  .subheader {
+    width: 100%;
+  }
+
+ }
+
+ @media only screen and (min-width: 1200px) and (orientation: portrait) {
+
+  .site-nav {
+    width: 100%;
+  }
+
+  .subheader {
+    width: 100%;
+  }
+
+  //  create a container for elements in banner
+  // See if need to create more breakpoints or make font size and text line spacing dynamic
+
+ }
+
+
+

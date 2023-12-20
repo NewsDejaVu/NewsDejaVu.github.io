@@ -1,5 +1,5 @@
 ---
 layout: category-archive
-title: Categories
+title: Entities
 permalink: /category/
 ---

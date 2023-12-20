@@ -4,7 +4,8 @@ layout: base
 <article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
 
   <header class="post-header">
-    <h1 class="post-title p-name" itemprop="name headline">{{ page.title | escape }}</h1>
+    <!-- newlines_to_br converts "\n" to <br> in the html -->
+    <h1 class="post-title p-name" itemprop="name headline">{{ page.title | escape | newline_to_br }}</h1>
     <p class="post-meta">
       {%- assign date_format = site.minima.date_format | default: "%B %-d, %Y" -%}
       <time class="dt-published" datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">
