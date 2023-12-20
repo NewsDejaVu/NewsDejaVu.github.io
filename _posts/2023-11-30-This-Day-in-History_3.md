@@ -1,0 +1,12 @@
+---
+layout: post
+title: "Today's News November 30, 2023 -- Part 3"
+tags: ['Sternhagen']
+date: 2023-11-30
+---
+
+| Actress Frances Sternhagen, 93 | Amelia Bingham, Once Famed Actress, Is Deac |
+|  |  |
+| Ap for the Associated Press | News Wire Article published in the Bradford Era |
+| November 30, 2023 | September 2, 1927 |
+| &nbsp;&nbsp;&nbsp;&nbsp;NEW YORK (AP) — Frances Sternhagen, the veteran character actor who won two Tony Awards and became a familiar maternal face to TV viewers later in life in such shows as “Cheers,” “ER,” “Sex and the City” and “The Closer,” has died. She was 93.<br>&nbsp;&nbsp;&nbsp;&nbsp;Sternhagen died peacefully of natural causes Monday her son, John Carlin, said in a statement posted to Instagram on Wednesday. “Fly on, Frannie,” he wrote. “The curtain goes down on a life so richly, passionately, humbly and generously lived.” Sternhagen’s publicist confirmed the death and said it occurred in New Rochelle, New York.<br>&nbsp;&nbsp;&nbsp;&nbsp;Sternhagen won a Tony for best featured actress in a play in 1974 for her role in Neil Simon’s “The Good Doctor” and a second one in 1995 for a revival of “The Heiress.” Her last turn on Broadway was in “Seascape” in 2005.<br>&nbsp;&nbsp;&nbsp;&nbsp;FILE - Actress Frances Sternhagen attends the premiere of “Julie & Julia” in New York, on July 30, 2009. Sternhagen, the veteran character actor who won two Tony Awards and became a familiar mat ...<br><br>Read the full article at<br>[https://apnews.com/article/frances-sternhagen-dies-e920000a85584256ac62f51196826eb0](https://apnews.com/article/frances-sternhagen-dies-e920000a85584256ac62f51196826eb0) | &nbsp;&nbsp;&nbsp;&nbsp;New York, Sept. 1 (Fi—Amelia Bingham. one of the stars of the American melodramatic stage at ithe turn of the century died today at her home on Riverside Drive qt the age of 58. Heart trouble. ‘combined with a slight attack of ‘pneumonia was the cause of death.<br>&nbsp;&nbsp;&nbsp;&nbsp;For eight months she had been an invalid. This morning she went to her window to watch the rain. The slight effort was too much for her and she was taken to bed.  “] am afraid we are nearing the end.” she said and a few minutes later she died. Her sister, Mrs. Mino Leslie, was at the bedside.<br>&nbsp;&nbsp;&nbsp;&nbsp;Funeral services probably will be held Saturday at “The Little Church Around the Corner.”<br>&nbsp;&nbsp;&nbsp;&nbsp;Mrs. Bingham is survived by an- other sister. a Mrs. Hartzler, also of Hicksville.    |

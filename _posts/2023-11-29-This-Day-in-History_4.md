@@ -1,0 +1,12 @@
+---
+layout: post
+title: "Today's News November 29, 2023 -- Part 4"
+tags: ['Musk']
+date: 2023-11-29
+---
+
+| Elon Musk Targets Advertisers Who Boycott X With Expletive-Filled Rant | Advertising Man Seeks To Force Luxury On Public |
+|  |  |
+| Gerrit De Vynck for The Washington Post | News Wire Article published in the Circleville Herald |
+| November 29, 2023 | March 24, 1956 |
+| &nbsp;&nbsp;&nbsp;&nbsp;Amid a growing advertiser exodus over antisemitism on his social media site, Elon Musk told advertisers he doesn’t want their money — in no uncertain terms. “Go f--- yourself,” Musk said at the New York Times DealBook conference Wednesday, addressing the growing list of advertisers who have stopped spending money on X, formerly Twitter, over concerns that Musk himself was amplifying antisemitism and racism on the social media site. He appeared to specifically call out Disney chief executive Bob Iger, whose company is among those who paused advertising on X, saying, “Hi, Bob.” Iger had spoken earlier at the conference, but it was unclear if he was still in the room when Musk spoke.<br>&nbsp;&nbsp;&nbsp;&nbsp;“What this advertising boycott is going to do is to kill the company,” Musk said before a crowd of business executives and journalists gathered at the Lincoln Center in Manhattan; the conference was also streamed live online. If X does go bankrupt, the public will blame censorious advertisers, not him or his ...<br><br>Read the full article at<br>[https://www.washingtonpost.com/technology/2023/11/29/elon-musk-advertiser-dealbook/](https://www.washingtonpost.com/technology/2023/11/29/elon-musk-advertiser-dealbook/) | &nbsp;&nbsp;&nbsp;&nbsp;ORLANDO, Fla. \?—On guard, men, or you will be forced to live in the lap of luxury and give the little woman a bigger chunk of the paycheck too.<br>&nbsp;&nbsp;&nbsp;&nbsp;At a southeastern advertising conference, John P. Cunning- ham, president of a New York agency, said that “to maintain our production and our stand- ard of living we must sell luxur- ies—a second car, a second TV set, outdoor living rooms, swim- ming pools.’’<br>&nbsp;&nbsp;&nbsp;&nbsp;He also said American hus- bands must be persuaded to al- low their wives more spare mon- ey and must change old maxims about thrift.<br>&nbsp;&nbsp;&nbsp;&nbsp;“This may point to a more ma- terialistic civilization than many people want, but we have to do it,’ Cunningham declared,  |
