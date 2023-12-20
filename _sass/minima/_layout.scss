@@ -23,14 +23,6 @@
 
 }
 
-// For changing the tabs (i.e., Home, About, etc.)
-.trigger {
-  font-weight: bold;
-  margin-top: 0;
-  margin-bottom: 0;
-  position: relative;
-  left: 310px;
-}
 
 // Declaring Font Faces
 
@@ -290,100 +282,173 @@
 
 }
 
-.site-nav {
-  position: absolute;
-  top: 9px;
-  right: $spacing-unit * .5;
+// See https://www.w3schools.com/howto/howto_css_dropdown_navbar.asp for this code
+
+.navbar {
+  overflow: hidden;
   background-color: $background-color;
-  border: 1px solid $border-color-01;
-  border-radius: 5px;
-  text-align: right;
-
-  .nav-trigger {
-    display: none;
-  }
-
-  .menu-icon {
-    float: right;
-    width: 36px;
-    height: 26px;
-    line-height: 0;
-    padding-top: 10px;
-    text-align: center;
-
-    > svg path {
-      fill: $border-color-03;
-    }
-  }
-
-  label[for="nav-trigger"] {
-    display: block;
-    float: right;
-    width: 36px;
-    height: 36px;
-    z-index: 2;
-    cursor: pointer;
-  }
-
-  input ~ .trigger {
-    clear: both;
-    display: none;
-  }
-
-  input:checked ~ .trigger {
-    display: block;
-    padding-bottom: 5px;
-  }
-
-  .home-link {
-    color: $text-color;
-    padding: 0px 20px;
-
-  }
-
-  .page-link {
-    color: $text-color;
-    line-height: $base-line-height;
-    display: block;
-    padding: 5px 10px;
-
-    // Gaps between nav items, but not on the last one
-    &:not(:last-child) {
-      margin-right: 0;
-    }
-    margin-left: 20px;
-  }
-
-
-  @media screen and (min-width: $on-medium) {
-    position: static;
-    float: right;
-    border: none;
-    background-color: inherit;
-
-    label[for="nav-trigger"] {
-      display: none;
-    }
-
-    .menu-icon {
-      display: none;
-    }
-
-    input ~ .trigger {
-      display: block;
-    }
-
-    .page-link {
-      display: inline;
-      padding: 0;
-
-      &:not(:last-child) {
-        margin-right: 20px;
-      }
-      margin-left: auto;
-    }
-  }
 }
+
+.navbar a {
+  float: left;
+  font-size: 16px;
+  color: $background-color;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.dropdown {
+  float: left;
+  overflow: hidden;
+}
+
+.dropdown .dropbtn {
+  font-size: 16px;  
+  border: none;
+  outline: none;
+  color: black;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+}
+
+.navbar a:hover, .dropdown:hover .dropbtn {
+  background-color: grey;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+// .site-nav {
+//   position: relative;
+//   top: 9px;
+//   right: $spacing-unit * 0.01;
+//   background-color: $background-color;
+//   border: 1px solid $border-color-01;
+//   border-radius: 5px;
+//   text-align: right;
+//   margin-top: 0%;
+//   margin-bottom: 0%;
+//   font-weight: bold;
+
+//   // For changing the tabs (i.e., Home, About, etc.)
+//   // .trigger {
+//   //   font-weight: bold;
+//   //   margin-top: 0%;
+//   //   margin-bottom: 0%;
+//   //   position: relative;
+//   // }
+
+//   .nav-trigger {
+//     display: none;
+//   }
+
+//   .menu-icon {
+//     float: right;
+//     width: 36px;
+//     height: 26px;
+//     line-height: 0;
+//     padding-top: 10px;
+//     text-align: center;
+
+//     > svg path {
+//       fill: $border-color-03;
+//     }
+//   }
+
+//   label[for="nav-trigger"] {
+//     display: block;
+//     float: right;
+//     width: 36px;
+//     height: 36px;
+//     z-index: 2;
+//     cursor: pointer;
+//   }
+
+//   input ~ .trigger {
+//     clear: both;
+//     display: none;
+//   }
+
+//   input:checked ~ .trigger {
+//     display: block;
+//     padding-bottom: 5px;
+//   }
+
+//   .home-link {
+//     color: $text-color;
+//     padding: 0px 20px;
+
+//   }
+
+//   .page-link {
+//     color: $text-color;
+//     line-height: $base-line-height;
+//     display: block;
+//     padding: 5px 10px;
+
+//     // Gaps between nav items, but not on the last one
+//     &:not(:last-child) {
+//       margin-right: 0;
+//     }
+//     margin-left: 20px;
+//   }
+
+
+//   @media screen and (min-width: $on-medium) {
+//     position: static;
+//     float: right;
+//     border: none;
+//     background-color: inherit;
+
+//     label[for="nav-trigger"] {
+//       display: none;
+//     }
+
+//     .menu-icon {
+//       display: none;
+//     }
+
+//     input ~ .trigger {
+//       display: block;
+//     }
+
+//     .page-link {
+//       display: inline;
+//       padding: 0;
+
+//       &:not(:last-child) {
+//         margin-right: 20px;
+//       }
+//       margin-left: auto;
+//     }
+//   }
+// }
 
 
 
@@ -970,7 +1035,7 @@
 
  @media only screen and (max-width: 600px) and (orientation: landscape) {
 
-  .trigger {
+  .site-nav {
     width: 100%;
   }
 
@@ -982,7 +1047,7 @@
 
  @media only screen and (max-width: 600px) and (orientation: portrait) {
   
-  .trigger {
+  .site-nav {
     width: 100%;
   }
 
@@ -994,7 +1059,7 @@
 
  @media only screen and (min-width: 601px) and (orientation: landscape) {
 
-  .trigger {
+  .site-nav {
     width: 100%;
   }
 
@@ -1006,7 +1071,7 @@
 
  @media only screen and (min-width: 601px) and (orientation: portrait) {
 
-  .trigger {
+  .site-nav {
     width: 100%;
   }
 
@@ -1018,7 +1083,7 @@
 
  @media only screen and (min-width: 768px) and (orientation: landscape) {
 
-  .trigger {
+  .site-nav {
     width: 100%;
   }
 
@@ -1030,7 +1095,7 @@
 
  @media only screen and (min-width: 768px) and (orientation: portrait) {
 
-  .trigger {
+  .site-nav {
     width: 100%;
   }
 
@@ -1042,7 +1107,7 @@
 
  @media only screen and (min-width: 992px) and (orientation: landscape) {
 
-  .trigger {
+  .site-nav {
     width: 100%;
   }
 
@@ -1054,7 +1119,7 @@
 
  @media only screen and (min-width: 992px) and (orientation: portrait) {
 
-  .trigger {
+  .site-nav {
     width: 100%;
   }
 
@@ -1066,7 +1131,7 @@
 
  @media only screen and (min-width: 1200px) and (orientation: landscape) {
 
-  .trigger {
+  .site-nav {
     width: 100%;
   }
 
@@ -1078,7 +1143,7 @@
 
  @media only screen and (min-width: 1200px) and (orientation: portrait) {
 
-  .trigger {
+  .site-nav {
     width: 100%;
   }
 
