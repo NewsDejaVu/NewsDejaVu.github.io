@@ -1,6 +1,7 @@
 ---
 layout: post
-title: "SPECIAL ISSUE: University Hearings Then and Now -- Part 3"
+# Need to use "\n" to convert to newlines
+title: "SPECIAL ISSUE: University Hearings Then and Now\n-- Part 3"
 tags: [University]
 date: 2023-12-07
 ---

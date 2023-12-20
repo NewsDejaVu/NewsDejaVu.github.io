@@ -28,7 +28,8 @@ layout: base
         <span class="post-meta">{{ post.date | date: date_format }}</span>
         <h3>
           <a class="post-link" href="{{ post.url | relative_url }}">
-            {{ post.title | escape }}
+            <!-- newlines_to_br converts "\n" to <br> in the html -->
+            {{ post.title | escape | newline_to_br }}
           </a>
         </h3>
         {%- if site.show_excerpts -%}

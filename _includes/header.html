@@ -30,20 +30,22 @@
       </nav>
     {%- endif -%}
   </div>
-  <div class="banner">
-    <hr>
-    <h1 class="site-title">
-        <a rel="author" href="{{ '/' | relative_url }}">{{ site.title | escape }}</a>
-    </h1>
-  </div>
-  <div class="phrase">"Those who cannot remember the past<br>are condemned to repeat it."<br>-- George Santayana's<br>The Life of Reason</div>
-  <!-- Got the following from this api: https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js -->
-  <!-- <script src="{{ '/assets/js/jquery.min.js' | relative_url }}"></script> -->
-  <div class="weatherforecastbox">
-    <h1 id="weather-header">Weather</h1>
-    <p id="weather-data"></p> 
-    <script src="{{ '/assets/js/weather.js' | relative_url }}"></script>
-    <!-- <script src="{{ '/assets/js/resize-weather-text.js' | relative_url }}"></script> -->
+  <div class="title-header-wrapper">
+    <div class="banner">
+      <hr>
+      <h1 class="site-title">
+          <a rel="author" href="{{ '/' | relative_url }}">{{ site.title | escape }}</a>
+      </h1>
+    </div>
+    <div class="phrase">"Those who cannot remember the past<br>are condemned to repeat it."<br>-- George Santayana's<br>The Life of Reason</div>
+    <!-- Got the following from this api: https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js -->
+    <!-- <script src="{{ '/assets/js/jquery.min.js' | relative_url }}"></script> -->
+    <div class="weatherforecastbox">
+      <h1 id="weather-header">Weather</h1>
+      <p id="weather-data"></p> 
+      <script src="{{ '/assets/js/weather.js' | relative_url }}"></script>
+      <!-- <script src="{{ '/assets/js/resize-weather-text.js' | relative_url }}"></script> -->
+    </div>
   </div>
   <div class="subheader">
     <h2 class="left-subheader">VOL. XXXVIII. No. 1,805</h2>
