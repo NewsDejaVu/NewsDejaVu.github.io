@@ -1,0 +1,6 @@
+This favicon was generated using the following font:
+
+- Font Title: Ruwudu
+- Font Author: Copyright (c) SIL International, 2015-2023
+- Font Source: http://fonts.gstatic.com/s/ruwudu/v4/syky-y1tj6UzRKfNlQCT9tPdpw.ttf
+- Font License: SIL Open Font License, 1.1 (http://scripts.sil.org/OFL))
