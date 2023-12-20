@@ -30,14 +30,12 @@
       </nav>
     {%- endif -%}
   </div>
-  <div class="title-header-wrapper">
-    <div class="banner">
-      <hr>
-      <h1 class="site-title">
-          <a rel="author" href="{{ '/' | relative_url }}">{{ site.title | escape }}</a>
-      </h1>
-    </div>
+  <hr class="banner-break">
+  <div class="banner">
     <div class="phrase">"Those who cannot remember the past<br>are condemned to repeat it."<br>-- George Santayana's<br>The Life of Reason</div>
+    <h1 class="site-title">
+        <a rel="author" href="{{ '/' | relative_url }}">{{ site.title | escape }}</a>
+    </h1>
     <!-- Got the following from this api: https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js -->
     <!-- <script src="{{ '/assets/js/jquery.min.js' | relative_url }}"></script> -->
     <div class="weatherforecastbox">
