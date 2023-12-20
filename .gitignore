@@ -14,6 +14,7 @@ CODE_OF_CONDUCT.md
 template_posts/
 misc/
 backup_posts/
+_posts/*.md
 # _json/
 # _posts/
 
