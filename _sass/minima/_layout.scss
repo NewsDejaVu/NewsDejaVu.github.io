@@ -713,6 +713,9 @@
   // Controls article body for Post on main page
   table tr:nth-child(5n) {
     color: black;
+    a { 
+      font-weight: bold;
+    }
   }
 
 }
@@ -875,6 +878,9 @@
   // Controls Body on Post on its own page
   table tr:nth-child(5) {
     color: black;
+    a { 
+      font-weight: bold;
+    }
   }
 
 
