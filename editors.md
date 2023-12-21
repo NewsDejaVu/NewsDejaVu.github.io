@@ -4,6 +4,7 @@ title: Editors
 permalink: /editors/
 ---
 
+<div style="text-align: center;">
 ### Abhishek Arora
 * [econabhishek on GitHub](https://github.com/econabhishek)
 
@@ -18,3 +19,4 @@ permalink: /editors/
 
 ### Emily Silcock
 * [emilysilcock on GitHub](https://github.com/emilysilcock)
+</div>
