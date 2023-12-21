@@ -41,7 +41,7 @@ header_pages:
   - editors.md
   - archive.md
   - tag.md
-  # - category.md # add back once we decide what we want to do with this page
+  - category.md # add back once we decide what we want to do with this page
   - search_bar.md
 
 google_analytics: G-MZCLNR9M8W
