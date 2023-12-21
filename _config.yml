@@ -41,15 +41,15 @@ header_pages:
   - editors.md
   - archive.md
   - tag.md
-  - category.md # add back once we decide what we want to do with this page
+  - category.md # Entities page
   - search_bar.md
 
 google_analytics: G-MZCLNR9M8W
 
 show_excerpts: true
 
-paginate: 5
-paginate_path: "/blog/page:num/"
+# paginate: 5
+# paginate_path: "/blog/page:num/"
 
 jekyll-archives:
   enabled:
