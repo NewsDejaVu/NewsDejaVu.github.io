@@ -4,6 +4,11 @@ title: Editors
 permalink: /editors/
 ---
 
+<style>
+div {text-align:center;}
+li {list-style: none;}
+</style>
+
 ### Abhishek Arora
 * [econabhishek on GitHub](https://github.com/econabhishek)
 
