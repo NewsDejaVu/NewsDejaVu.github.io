@@ -1,8 +1,8 @@
 ---
 layout: post
 title: "Weekly Roundup - December 11, 2023"
-categories: ['Streaming Network', 'Tv Show', 'Abortion', 'Teachers And Adult Content', 'Controversy', 'Crime', 'Shooting', 'Ukraine Aid In Congress', 'Foreign Aid', 'Sports', 'Basketball', 'Murder', 'Bird Feeding', 'Birds']
-tags: ['Carlson', 'Paar', 'Lewandowski', 'Wallace', 'Laird', 'Parr', 'Newman', 'Lopez']
+categories: ['Carlson', 'Paar', 'Lewandowski', 'Wallace', 'Laird', 'Parr', 'Newman', 'Lopez']
+tags: ['Streaming Network', 'Tv Show', 'Abortion', 'Teachers And Adult Content', 'Controversy', 'Crime', 'Shooting', 'Ukraine Aid In Congress', 'Foreign Aid', 'Sports', 'Basketball', 'Murder', 'Bird Feeding', 'Birds']
 date: 2023-12-11
 ---
 
