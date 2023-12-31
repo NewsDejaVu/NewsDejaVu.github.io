@@ -319,6 +319,8 @@
 }
 
 .dropdown-content {
+  max-height: 400px;
+  overflow-y: auto;
   display: none;
   position: absolute;
   background-color: #f9f9f9;
@@ -458,6 +460,10 @@
 .site-footer {
   border-top: 1px solid $border-color-01;
   padding: $spacing-unit 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 
 .footer-heading {
@@ -584,12 +590,16 @@
 
 
 .post-list {
-  position: relative;
   list-style: none;
-  width: 1200px;
-  left: -260px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
   
-
+  li {
+    width: 1200px;
+  }
+  
   .post-link {
     line-height: $base-line-height * 0.575;
   }
@@ -705,7 +715,7 @@
     color: black;
     font-weight: 400;
     letter-spacing: 0px;
-    line-height: $base-line-height * 0.3;
+    line-height: $base-line-height * 0.75;
     top: -10px;
   }
 
@@ -793,12 +803,26 @@
 
 .post-content {
   margin-bottom: $spacing-unit;
-  position: relative;
-  width: 1200px;
-  left: -230px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  // Adding dividing line for articles in same markdown
+  hr {
+    border-width: 1px;
+    border-color: lightgrey;
+    margin-top: 0px;
+    margin-bottom: $spacing-unit * 1.5;
+    width: 100%;
+  }
 
   tbody {
     vertical-align: top;
+  }
+
+  td {
+    width: 50%;
   }
 
   table, th, td {
@@ -807,8 +831,9 @@
   }
 
   table {
+    width: 1200px;
+    display: inline-block;
     table-layout: fixed;
-    width: 100%;
     text-align: left;
     border-collapse: collapse;
   }
@@ -840,7 +865,7 @@
     color: black;
     font-weight: 550;
     text-transform: uppercase;
-    line-height: $base-line-height * 0.75;
+    line-height: $base-line-height * 1;
     position: relative;
     top: -20px;
     
@@ -872,7 +897,7 @@
     color: black;
     font-weight: 400;
     letter-spacing: 0px;
-    line-height: $base-line-height * 0.3;
+    line-height: $base-line-height * 0.75;
     top: -10px;
   }
   // Controls Body on Post on its own page
@@ -1080,9 +1105,52 @@
     width: 100%;
   }
 
-  .subheader {
+  .banner {
+    .phrase{
+      display: none;
+    }
+    
+  
+    h1 {
+      @include relative-font-size(5);
+      line-height: $base-line-height * 0.75;
+      
+    }
+  
+    .weatherforecastbox{
+      display: none;
+    }
+  
+  }
+
+  .subheader{
+    display: none;
+  }
+
+  .post-list {  
+    li {
+      width: 100%;
+    }
+  }
+
+  .site-footer {
     width: 100%;
   }
+
+  .post-content {
+   
+    table {
+      width: 100%;
+    }
+  
+  }
+
+  .post-title {
+    position: relative;
+    left: 0%;
+    width: 100%;
+  }
+
 
  }
 
@@ -1092,9 +1160,52 @@
     width: 100%;
   }
 
-  .subheader {
+  .banner {
+    .phrase{
+      display: none;
+    }
+    
+  
+    h1 {
+      @include relative-font-size(5);
+      line-height: $base-line-height * 0.75;
+      
+    }
+  
+    .weatherforecastbox{
+      display: none;
+    }
+  
+  }
+
+  .subheader{
+    display: none;
+  }
+
+  .post-list {  
+    li {
+      width: 100%;
+    }
+  }
+
+  .site-footer {
     width: 100%;
   }
+
+  .post-content {
+   
+    table {
+      width: 100%;
+    }
+  
+  }
+
+  .post-title {
+    position: relative;
+    left: 0%;
+    width: 100%;
+  }
+
 
  }
 
@@ -1104,9 +1215,51 @@
     width: 100%;
   }
 
-  .subheader {
+  .banner {
+    // .phrase{
+    //   display: none;
+    // }
+    
+  
+    h1 {
+      @include relative-font-size(8.5);
+      line-height: $base-line-height * 0.75;
+      
+    }
+  
+    // .weatherforecastbox{
+    //   display: none;
+    // }
+  
+  }
+
+  // .subheader{
+  //   display: none;
+  // }
+
+  // .post-list {  
+  //   li {
+  //     width: 100%;
+  //   }
+  // }
+
+  .site-footer {
     width: 100%;
   }
+
+  // .post-content {
+   
+  //   table {
+  //     width: 100%;
+  //   }
+  
+  // }
+
+  // .post-title {
+  //   position: relative;
+  //   left: 0%;
+  //   width: 100%;
+  // }
 
  }
 
@@ -1116,9 +1269,51 @@
     width: 100%;
   }
 
-  .subheader {
+  .banner {
+    // .phrase{
+    //   display: none;
+    // }
+    
+  
+    h1 {
+      @include relative-font-size(8.5);
+      line-height: $base-line-height * 0.75;
+      
+    }
+  
+    // .weatherforecastbox{
+    //   display: none;
+    // }
+  
+  }
+
+  // .subheader{
+  //   display: none;
+  // }
+
+  // .post-list {  
+  //   li {
+  //     width: 100%;
+  //   }
+  // }
+
+  .site-footer {
     width: 100%;
   }
+
+  // .post-content {
+   
+  //   table {
+  //     width: 100%;
+  //   }
+  
+  // }
+
+  // .post-title {
+  //   position: relative;
+  //   left: 0%;
+  //   width: 100%;
+  // }
 
  }
 
@@ -1131,6 +1326,20 @@
   .subheader {
     width: 100%;
   }
+
+  // .post-content {
+   
+  //   table {
+  //     width: 100%;
+  //   }
+  
+  // }
+
+  // .post-title {
+  //   position: relative;
+  //   left: 0%;
+  //   width: 100%;
+  // }
 
  }
 
