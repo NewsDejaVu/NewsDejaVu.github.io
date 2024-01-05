@@ -14,7 +14,7 @@ date: 2024-01-04
 
 ---
 
-| Harvard Couldn’T Save Both Claudine Gay And Itself | Aaup Hits Five Large Universities |
+| Harvard Couldn’T Save Both Claudine Gay And Itself | Valpo president resigns job;  Hits the school |
 |  |  |
 | Ross Douthat for the New York Times | News Wire Article published in the Bryan Daily Eagle |
 | January 3, 2024 | April 8, 1956 |
