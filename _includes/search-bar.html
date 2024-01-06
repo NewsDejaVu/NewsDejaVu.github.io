@@ -122,6 +122,24 @@
         .search-box:not(:valid) ~ .close-icon {
             display: none;
         }
+        @media only screen and (max-width: 600px) and (orientation: landscape) {
+            input[type="image"] {
+                position: absolute;
+                left: -10%;
+                margin-top: -55px;
+                width: 25px; 
+                height: 35px;
+        }
+        }
+        @media only screen and (max-width: 600px) and (orientation: portrait) {
+            input[type="image"] {
+                position: absolute;
+                left: -10%;
+                margin-top: -40px;
+                width: 30px; 
+                height: 40px;
+            }
+        }
     </style>
 </head>
 <body>
