@@ -38,6 +38,11 @@
       <h1 id="weather-header">Weather</h1>
       <p id="weather-data"></p> 
       <script src="{{ '/assets/js/weather.js' | relative_url }}"></script>
+      <script>
+        if (document.getElementById("weather-data").innerHTML == "") {
+          document.getElementById("weather-data").innerHTML = "Cloudy with a Chance of Meatballs. Winds 8 Miles per 127 Hours, North by Northwest. High of Farenheit 451."
+        }
+      </script>
       <!-- <script src="{{ '/assets/js/resize-weather-text.js' | relative_url }}"></script> -->
     </div>
   </div>
