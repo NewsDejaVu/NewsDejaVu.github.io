@@ -491,26 +491,117 @@
   color: gray;
 }
 
-.link-row {
-  position: relative;
+.link-row-1 {
   display: flex;                  
   flex-direction: row;            /* default value; can be omitted */
-  flex-wrap: nowrap;             
+  flex-wrap: nowrap; 
+  align-items: center;            
   justify-content: space-between; 
-  left: 45px;
-  padding-bottom: 15px;;
+  padding-bottom: 15px;
 }
 
-.feed-subscribe {
-  span {
-    color: gray;
-  }
+.link-row-2 {
+  display: flex;                  
+  flex-direction: row;            /* default value; can be omitted */
+  flex-wrap: nowrap; 
+  align-items: center;            
+  justify-content: center; 
+  padding-bottom: 15px;
 }
 
-// .social-links {
-//   margin-right: 225px;
-  
+// .feed-subscribe {
+//   span {
+//     color: gray;
+//   }
 // }
+
+.email-subscription-container {
+  top: 0;
+  left: 0;
+}
+
+.email-subscription-content {
+  width: 360px;
+  height: 40px;
+  box-shadow: 2px 4px 10px rgba(0, 0, 0, .2);
+  border-radius: 60px;
+  overflow: hidden;
+}
+
+.subscription {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+.subscription .add-email{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border: none;
+  outline: none;
+  padding: 0 20px;
+}
+
+.subscription .submit-email {
+  position: absolute;
+  top: 0;
+  right: 0;
+  height: calc(100% - 2px);
+  width: 100px;
+  border: none;
+  border-radius: 60px;
+  outline: none;
+  margin: 1px;
+  padding: 0 20px;
+  cursor: pointer;
+  font-family: inherit; // the inherited (default) font is Rockwell and is imported and decleared in the _base.scss file
+  background: black;
+  color: #FFFFFF;
+  transition: width .35s ease-in-out,
+    background .35s ease-in-out;
+}
+
+.subscription.done .submit-email {
+  width: calc(100% - 2px);
+  background: black;
+}
+
+.subscription .submit-email .before-submit,
+.subscription .submit-email .after-submit {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  line-height: 38px;
+  transition: visibility .35s ease-in-out,
+    opacity .35s ease-in-out;
+}
+
+.subscription.done .submit-email .before-submit,
+.subscription:not(.done) .submit-email .after-submit {
+  visibility: hidden;
+  opacity: 0;
+}
+
+.subscription .submit-email .after-submit {
+  transition-delay: .35s;
+}
+
+.subscription:not(.done) .submit-email .before-submit,
+.subscription.done .submit-email .after-submit {
+  visibility: visible;
+  opacity: 1;
+}
+
+
+.social-links {
+  padding-left: $spacing-unit * 1;
+}
 
 // .share-buttons {
 //   margin-left: 225px;
@@ -1316,6 +1407,8 @@
   // }
 
  }
+
+ 
 
  @media only screen and (min-width: 768px) and (orientation: landscape) {
 

@@ -5,7 +5,8 @@
     <div class="site-description">
       <p>{{ site.description | escape }}</p>
     </div>
-    <div class="link-row">
+    <div class="link-row-1">
+      <!-- XML is for when you use a paid advertising service. See https://marketing-dictionary.org/wxyz/xml-feed/ -->
       <!-- <div class="feed-subscribe">
         <a href="{{ site.feed.path | default: 'feed.xml' | absolute_url }}">
           <svg class="svg-icon orange">
@@ -13,17 +14,22 @@
           </svg><span>Subscribe to<br>Our Newsletter</span>
         </a>
       </div> -->
-      <div class="social-links">
-        {%- include social.html -%}
+      <div class="email-subscription-container">
+        {% include subscription-form.html %}
       </div>
       <div class="share-buttons">
         {% include share-buttons.html %}
       </div>
     </div>
-    <div class="message">
-      <p>Made with &#10084; by dell-research-harvard</p>
+    <div class="link-row-2">
+      <div class="message">
+        <p>Made with &#10084; by dell-research-harvard</p>
+      </div>
+      <div class="social-links">
+        {%- include social.html -%}
+      </div>
     </div>
-
+    
     <!-- <div class="footer-col-wrapper">
       <div class="footer-col">
         <p class="feed-subscribe">

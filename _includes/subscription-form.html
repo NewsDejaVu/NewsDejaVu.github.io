@@ -1,0 +1,18 @@
+<!-- This code was based on the following: https://codepen.io/tudorworks/pen/GRmpNWe -->
+<div class="email-subscription-content">
+    <form class="subscription" action="https://api.follow.it/subscription-form/WkI0VkY2R3JoVHpsbGROVkF2YlpUbFBNLy90Ykt1WG1QaFM2WGw1TEdrNld2em4rQ1VOcXhXMGJ1VTdaWk5aaVpEZzM5Y1JaY1FlTXd1L1FTMGVaVWtnUEQwSTVCUzBiYXByci9YbHVjSjF5Z0Uyc0NoQjl5dHhScXRiOU8ra3B8cGt1Z3FNOXNyRlc5YTcvVjA5dXRBRVlxNFprdGdZL2d5bDQrTEVLbzYrRT0=/8" method="post">
+    <!-- the inherited font should be Rockwell -->
+    <input class="add-email" type="email" placeholder="Please enter your email" style="font-family: inherit;">
+    <button class="submit-email" type="button">
+        <span class="before-submit">Subscribe</span>
+        <span class="after-submit">Thank you for subscribing!</span>
+        </button>
+    </form>
+</div>
+<script>
+    document.querySelector('.submit-email').addEventListener('mousedown', (e) => {
+        e.preventDefault();
+        document.querySelector('.subscription').classList.add('done');
+    });
+</script>
+
