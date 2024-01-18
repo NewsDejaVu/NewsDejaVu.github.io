@@ -13,11 +13,24 @@ dl, dd, ol, ul, figure {
 
 }
 
+// Declaring Font Faces
+
+// See https://www.onlinewebfonts.com/download/527ea5851ca62a9a758a44dc39437eae to import fonts
+@font-face {
+  font-family: "Rockwell";
+  src: url("https://db.onlinewebfonts.com/t/4aa3e37e571255737e5e6d4e9d9770a5.eot");
+  src: url("https://db.onlinewebfonts.com/t/4aa3e37e571255737e5e6d4e9d9770a5.eot?#iefix")format("embedded-opentype"),
+  url("https://db.onlinewebfonts.com/t/4aa3e37e571255737e5e6d4e9d9770a5.woff2")format("woff2"),
+  url("https://db.onlinewebfonts.com/t/4aa3e37e571255737e5e6d4e9d9770a5.woff")format("woff"),
+  url("https://db.onlinewebfonts.com/t/4aa3e37e571255737e5e6d4e9d9770a5.ttf")format("truetype"),
+  url("https://db.onlinewebfonts.com/t/4aa3e37e571255737e5e6d4e9d9770a5.svg#Rockwell")format("svg");
+}
 
 
 /**
  * Basic styling
  */
+//  Rockwell is the default / inherited font
 body {
   font: $base-font-weight #{$base-font-size}/#{$base-line-height} "Rockwell";
   color: black;
