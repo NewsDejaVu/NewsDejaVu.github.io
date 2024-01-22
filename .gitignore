@@ -15,7 +15,8 @@ template_posts/
 misc/
 backup_posts/
 NewsDejaVu_Account_Details.md
-mailchimp_emailer/
+script/Mailchimp_Campaigns/
+script/post_creation/
 
 #  Theme Minima Files to Ignore
 Theme_Minima_LICENSE.txt
