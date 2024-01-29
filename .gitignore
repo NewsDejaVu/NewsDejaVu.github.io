@@ -18,6 +18,9 @@ NewsDejaVu_Account_Details.md
 script/Mailchimp_Campaigns/
 script/post_creation/
 
+# Special Markdown Posts to Ignore
+_posts/2024-01-28*
+
 #  Theme Minima Files to Ignore
 Theme_Minima_LICENSE.txt
 Theme_Minima_README.md
