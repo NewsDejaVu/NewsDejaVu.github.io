@@ -17,6 +17,9 @@ backup_posts/
 NewsDejaVu_Account_Details.md
 mailchimp_emailer/
 
+# Special Markdown Posts Want to Ignore
+_posts/2024-01-28-This-Day-in-History_2.md
+
 #  Theme Minima Files to Ignore
 Theme_Minima_LICENSE.txt
 Theme_Minima_README.md
