@@ -2,7 +2,7 @@
 layout: post
 title: "Weekly Roundup - December 18, 2023"
 categories: ['Reagan', 'Calvert', 'Tilkin', 'Steele']
-tags: ['Pentagon Mission', 'Central America', 'Government Funding', 'Education', 'Nursing Home Closure', 'Nursing Homes', 'Ai Safety', 'Technology', 'Hotel Explosion', 'Hotel Fire', 'Building Collapse', 'School Collapse']
+tags: ['_Advice', 'Pentagon Mission', 'Central America', 'Government Funding', 'Education', 'Nursing Home Closure', 'Nursing Homes', 'Ai Safety', 'Technology', 'Hotel Explosion', 'Hotel Fire', 'Building Collapse', 'School Collapse']
 date: 2023-12-18
 ---
 

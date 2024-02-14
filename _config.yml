@@ -37,12 +37,15 @@ minima:
       title:  Check Out NewsDejaVu on Github  # Optional. Text displayed on hovering over link.
 
 header_pages:
-  - about.md
-  - editors.md
-  - archive.md
-  - tag.md
-  - category.md # Entities page
   - search_bar.md
+  - news.md
+  - editorials.md
+  - advice.md
+  - category.md # Entities page 
+  - tag.md
+  - archive.md
+  - about.md
+  - contributors.md
 
 google_analytics: G-MZCLNR9M8W
 

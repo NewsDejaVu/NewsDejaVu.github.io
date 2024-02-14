@@ -16,6 +16,7 @@ misc/
 backup_posts/
 NewsDejaVu_Account_Details.md
 script/Mailchimp_Campaigns/
+script/MailMerge_Campaigns/
 script/post_creation/
 
 # Special Markdown Posts to Ignore

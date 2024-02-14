@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "SPECIAL ISSUE: University Hearings Then and Now"
-tags: ['University', 'Special Issue']
+tags: ['_News', 'University', 'Special Issue']
 date: 2023-12-05
 ---
 
