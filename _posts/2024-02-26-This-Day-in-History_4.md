@@ -14,7 +14,7 @@ date: 2024-02-26
 
 ---
 
- Airman Who Set Self On Fire Grew Up On Religious Compound Had Anarchist Past | Self-Proclaimed Pacifist Man Sets Himself Afire Before Horrified Workers At Pentagon |
+| Airman Who Set Self On Fire Grew Up On Religious Compound Had Anarchist Past | Self-Proclaimed Pacifist Man Sets Himself Afire Before Horrified Workers At Pentagon |
 |  |  |
 | Emily Davies, Peter Hermann And Dan Lamothe for The Washington Post | News Wire Article published in the Oil City Derrick |
 | February 26, 2024 | November 3, 1965 |
