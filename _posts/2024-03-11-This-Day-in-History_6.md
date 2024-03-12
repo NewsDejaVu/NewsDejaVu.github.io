@@ -6,19 +6,19 @@ tags: ['_News', 'Health', 'Religion', 'Aviation', 'Plane Crash', 'Android', 'Ins
 date: 2024-03-11
 ---
 
-| Pope Unable To Climb Few Steps As Respiratory And Mobility Problems Take Toll | Pope Pius Slightly Improved But May Remain Chair-Bound |
-|  |  |
-| Associated Press | News Wire Article published in the New Castle News |
-| March 6, 2024 | December 9, 1936 |
-| &nbsp;&nbsp;&nbsp;&nbsp;VATICAN CITY (AP) — Pope Francis again asked an aide to read his remarks and was unable to get back onto his popemobile Wednesday as lingering respiratory and mobility problems continued to take their toll on the 87-year-old pontiff. Francis presided over his weekly general audience held outside for the first time this year in a chilly St. Peter’s Square. But he had an aide read his catechism lesson as he has done for the past several days. Last Wednesday Francis went to the hospital for u ...<br><br>Read the full article <b>[here](https://apnews.com/article/vatican-pope-francis-health-italy-6bcbbd81b293d03ea57ca1c597aba4fb)</b>. | &nbsp;&nbsp;&nbsp;&nbsp;VATICAN CITY Dec. 9.—Pope Pius although slightly improved in his illness today may be a chair-bound invalid for the remainder of his life International News Service learned on high authority. The pontiff who has led an unusually strenuous life even through his late seventies is facing the possibility bravely and he almost defies the advice of his doctors and aides to lighten his load of work. The pope was officially reported “materially” improved today but members of his official family were saddened at the effect his present illness has had upon him. |
-
----
-
 | Justice Dept. Opens Criminal Probe Of Mid-Flight Blowout On 737 Max Plane | Probe Crackup Of Dutch Plane |
 |  |  |
 | Spencer S. Hsu, Ian Duncan, Lori Aratani for The Washington Post | News Wire Article published in the Hamilton Daily News Journal |
 | March 10, 2024 | September 7, 1954 |
 | &nbsp;&nbsp;&nbsp;&nbsp;FAA has stepped up oversight of its manufacturing and quality control processes. The agency also has taken the unusual step of limiting the number of aircraft the company can produce until it can be assured that Boeing has addressed the problems that contributed to the Alaska Airlines blowout. FAA Administrator Michael Whitaker recently visited Seattle a trip that included a tour of Boeing’s 737 production line. He also spoke with Boeing engineers and mechanics as well as FAA employees tasked ...<br><br>Read the full article <b>[here](https://www.washingtonpost.com/transportation/2024/03/09/justice-department-investigation-boeing-max-accident/)</b>. | &nbsp;&nbsp;&nbsp;&nbsp;SHANNON AIRPORT Ireland - The coroners inquest into the deaths of 28 persons aboard a crashed Dutch KLM airliner has been told that 25 victims trapped in the plane’s cabin died of asphyxiation from gas fumes. One passenger who escaped with 28 other survivors after the plane plowed into the muddy Shannon River Sunday died later in a hospital from injuries suffered in the crash. She was Mrs. Caroline Platz of New York City. Two bodies have not been recovered. Eleven victims and 15 of those who escaped were Americans. Dr. William Flynn medical officer for Shannon Airport testified at the inquest yesterday that examination of the bodies found in the plane showed no evidence of drowning or injury. Thus he concluded they suffocated from the gas fumes. |
+
+---
+
+| Pope Unable To Climb Few Steps As Respiratory And Mobility Problems Take Toll | Pope Pius Slightly Improved But May Remain Chair-Bound |
+|  |  |
+| Associated Press | News Wire Article published in the New Castle News |
+| March 6, 2024 | December 9, 1936 |
+| &nbsp;&nbsp;&nbsp;&nbsp;VATICAN CITY (AP) — Pope Francis again asked an aide to read his remarks and was unable to get back onto his popemobile Wednesday as lingering respiratory and mobility problems continued to take their toll on the 87-year-old pontiff. Francis presided over his weekly general audience held outside for the first time this year in a chilly St. Peter’s Square. But he had an aide read his catechism lesson as he has done for the past several days. Last Wednesday Francis went to the hospital for u ...<br><br>Read the full article <b>[here](https://apnews.com/article/vatican-pope-francis-health-italy-6bcbbd81b293d03ea57ca1c597aba4fb)</b>. | &nbsp;&nbsp;&nbsp;&nbsp;VATICAN CITY Dec. 9.—Pope Pius although slightly improved in his illness today may be a chair-bound invalid for the remainder of his life International News Service learned on high authority. The pontiff who has led an unusually strenuous life even through his late seventies is facing the possibility bravely and he almost defies the advice of his doctors and aides to lighten his load of work. The pope was officially reported “materially” improved today but members of his official family were saddened at the effect his present illness has had upon him. |
 
 ---
 
