@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Weekly Roundup - March 4, 2024"
+title: "News Weekly Roundup - March 4, 2024"
 categories: ['Mitch Mcconnell', 'Mansfield', 'Joe Biden', 'Duncan', 'Fox News', 'Arthur J Goldberg', 'Franklin D Roosevelt', 'World Wildlife Fund', 'Tiber Island']
 tags: ['_News', 'Politics', 'Ai Technology', 'Automation', 'Society', 'Endangered Species', 'Nature', 'Health']
 date: 2024-03-04
