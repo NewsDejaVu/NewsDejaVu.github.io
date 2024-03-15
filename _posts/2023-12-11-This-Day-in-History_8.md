@@ -2,7 +2,7 @@
 layout: post
 title: "Weekly Roundup - December 11, 2023"
 categories: ['Carlson', 'Paar', 'Leonard Strickman', 'Lewandowski', 'Vivek Ramaswamy', 'Wallace', 'Volodymyr Zelensky', 'Laird', 'Jevin Allen', 'Parr', 'Palm Beach County Sheriff \\ S Office', 'Newman', 'Fish And Wildlife Conservation Department', 'Lopez']
-tags: ['Streaming Network', 'Tv Show', 'Abortion', 'Teachers And Adult Content', 'Controversy', 'Crime', 'Shooting', 'Ukraine Aid In Congress', 'Foreign Aid', 'Sports', 'Basketball', 'Murder', 'Bird Feeding', 'Birds']
+tags: ['_News', 'Streaming Network', 'Tv Show', 'Abortion', 'Teachers And Adult Content', 'Controversy', 'Crime', 'Shooting', 'Ukraine Aid In Congress', 'Foreign Aid', 'Sports', 'Basketball', 'Murder', 'Bird Feeding', 'Birds']
 date: 2023-12-11
 ---
 
