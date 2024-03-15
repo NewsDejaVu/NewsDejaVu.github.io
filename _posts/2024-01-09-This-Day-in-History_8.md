@@ -2,7 +2,7 @@
 layout: post
 title: "Weekly Roundup - January 9, 2024"
 categories: ['Palmer', 'Irgun Zvai Leumi', 'Israel', 'John W Thompson', 'Siri', 'Tommy Manville', 'Leap Day', 'Dwight Smith', 'Philadelphia', 'District Of Arkansas', 'W A Parr']
-tags: ['Jan 6 Capitol Attack', 'Radical Bombing', 'Iran Blasts', 'Martial Law', 'Mideast War', 'War', 'Brain Rest', 'Mental Health', 'Privacy', 'Leap Year', 'Leap Week', 'Soda Taxes', 'Taxes', 'Ai Technology At Ces 2024', 'Gadgets']
+tags: ['_News', 'Jan 6 Capitol Attack', 'Radical Bombing', 'Iran Blasts', 'Martial Law', 'Mideast War', 'War', 'Brain Rest', 'Mental Health', 'Privacy', 'Leap Year', 'Leap Week', 'Soda Taxes', 'Taxes', 'Ai Technology At Ces 2024', 'Gadgets']
 date: 2024-01-09
 ---
 
