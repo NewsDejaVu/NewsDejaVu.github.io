@@ -1,9 +1,9 @@
 ---
 layout: post
-title: "Editorial Weekly Roundup - March 1, 2024"
+title: "Editorial Weekly Roundup - March 14, 2024"
 categories: ['Alexei Navalny', 'Diem', 'Walter Mondale', 'Wallace', 'Claudine Gay', 'Bruce Franklin', 'Trump', 'Hesburgh']
 tags: ['_Editorial', 'Politics', 'Education', 'Civil Rights']
-date: 2024-03-01
+date: 2024-03-14
 ---
 
 | In Death Navalny Is Even More Dangerous To Putin’S Lies | Parallel Is Seen |
