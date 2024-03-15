@@ -2,7 +2,7 @@
 layout: post
 title: "Weekly Roundup - February 5, 2024"
 categories: ['Hamas', 'Mao Tse - Tung', 'Bruns', 'Byron White', 'Phil']
-tags: ['War', 'Parking', 'Clean Energy', 'Groundhog Day']
+tags: ['_News', 'War', 'Parking', 'Clean Energy', 'Groundhog Day']
 date: 2024-02-05
 ---
 
