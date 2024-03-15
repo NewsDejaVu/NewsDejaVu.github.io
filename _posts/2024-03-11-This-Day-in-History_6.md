@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Weekly Roundup - March 11, 2024"
+title: "News Weekly Roundup - March 11, 2024"
 categories: ['Caroline Platz', 'Kazuko Takeda', 'Tractor - Trailer Semi', 'Californias', 'North America']
 tags: ['_News', 'Health', 'Religion', 'Aviation', 'Plane Crash', 'Android', 'Inspiration', 'Electric Vehicles', 'Automotive', 'Mental Health', 'Solar Eclipse', 'Astronomy']
 date: 2024-03-11
