@@ -2,7 +2,7 @@
 layout: post
 title: "Weekly Roundup - December 18, 2023"
 categories: ['Reagan', 'Republican', 'Calvert', 'St Louis', 'Tilkin', 'Chatgpt', 'Steele', 'Lancaster County', 'Central']
-tags: ['Pentagon Mission', 'Central America', 'Government Funding', 'Education', 'Nursing Home Closure', 'Nursing Homes', 'Ai Safety', 'Technology', 'Hotel Explosion', 'Hotel Fire', 'Building Collapse', 'School Collapse']
+tags: ['_News', 'Pentagon Mission', 'Central America', 'Government Funding', 'Education', 'Nursing Home Closure', 'Nursing Homes', 'Ai Safety', 'Technology', 'Hotel Explosion', 'Hotel Fire', 'Building Collapse', 'School Collapse']
 date: 2023-12-18
 ---
 
