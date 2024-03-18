@@ -2,7 +2,7 @@
 layout: post
 title: "Weekly Roundup - January 29, 2024"
 categories: ['Joe Biden', 'Tesla', 'Thring', 'Linn']
-tags: ['Economic Outlook', 'Economy', 'American', 'Tesla Recall', 'Recall', 'Robotics', 'Technology', 'Autonomous Security Robot', 'Security', 'Tragic Accident', 'Weather']
+tags: ['_News', 'Economic Outlook', 'Economy', 'American', 'Tesla Recall', 'Recall', 'Robotics', 'Technology', 'Autonomous Security Robot', 'Security', 'Tragic Accident', 'Weather']
 date: 2024-01-29
 ---
 

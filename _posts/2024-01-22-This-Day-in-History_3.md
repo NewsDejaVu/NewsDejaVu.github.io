@@ -2,7 +2,7 @@
 layout: post
 title: "Weekly Roundup - January 22, 2024"
 categories: ['Donald Trump', 'Carter', 'Dear', 'Thaw', 'Supreme Court']
-tags: ['Politics', 'Friendship', 'Reconciliation', 'Supreme Court']
+tags: ['_News', 'Politics', 'Friendship', 'Reconciliation', 'Supreme Court']
 date: 2024-01-22
 ---
 

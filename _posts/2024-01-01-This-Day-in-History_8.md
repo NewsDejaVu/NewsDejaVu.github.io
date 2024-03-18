@@ -2,7 +2,7 @@
 layout: post
 title: "Weekly Roundup - January 1, 2024"
 categories: ['Ukraine', 'Saigon', 'Wilkinson', 'Fonda', 'Markus Baath', 'Carolyn Hax', 'Jake Bill - ‘ Meyer', 'Ganz', 'Millard Gardner', 'Cody Brundage', 'Sharkey']
-tags: ['Ukraine-Russia Conflict', 'Clashes', 'Obituary', 'Climate Change', 'Earthquakes', 'Relationships', 'Hippies', 'Family', 'Bedbugs', 'Health', 'Heart Attacks', 'Body Cameras', 'Privacy', 'Ufc', 'Boxing']
+tags: ['_News', 'Ukraine-Russia Conflict', 'Clashes', 'Obituary', 'Climate Change', 'Earthquakes', 'Relationships', 'Hippies', 'Family', 'Bedbugs', 'Health', 'Heart Attacks', 'Body Cameras', 'Privacy', 'Ufc', 'Boxing']
 date: 2024-01-01
 ---
 

@@ -2,7 +2,7 @@
 layout: post
 title: "Weekly Roundup - December 25, 2023"
 categories: ['Paul Vi', 'Jennifer Homendy', 'Everett', 'Mark', 'Vasquez', 'John A Volpe', 'John E Ingersoll', 'James Biden', 'Nixon', 'Grant Davis', 'Lynn']
-tags: ['Bethlehem Christmas Celebrations Cancelled Due To War', 'Christmas', 'Aviation Industry Mental Health', 'Aviation', 'Video Games', 'Airport Security', 'Security', 'Ai In Law Enforcement', 'Drug Trafficking', 'Impeachment Inquiry', 'Impeachment', 'Gun Influencers', 'Parenting']
+tags: ['_News', 'Bethlehem Christmas Celebrations Cancelled Due To War', 'Christmas', 'Aviation Industry Mental Health', 'Aviation', 'Video Games', 'Airport Security', 'Security', 'Ai In Law Enforcement', 'Drug Trafficking', 'Impeachment Inquiry', 'Impeachment', 'Gun Influencers', 'Parenting']
 date: 2023-12-25
 ---
 

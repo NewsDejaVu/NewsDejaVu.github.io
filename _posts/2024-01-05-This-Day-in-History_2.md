@@ -2,7 +2,7 @@
 layout: post
 title: "Special Edition - Predictions"
 categories: ['Niels Bohr', 'Kennedy', 'Nostradamus', 'William Pitt']
-tags: ['Predictions', 'Nostradamus Predictions', 'Prophets']
+tags: ['_News', 'Predictions', 'Nostradamus Predictions', 'Prophets']
 date: 2024-01-05
 ---
 

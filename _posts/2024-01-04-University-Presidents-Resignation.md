@@ -2,7 +2,7 @@
 layout: post
 title: "Special Edition - Resignation of University Presidents"
 categories: ['Antisemitism', 'Kerr', 'Claudine Gay', 'American Assn Of University Professors', 'Harvard University', 'Daniel Ryssell Hodgdon', 'Masterson']
-tags: ['Resignation', 'Harvard University', 'Censure', 'Higher Education', 'Protests']
+tags: ['_News', 'Resignation', 'Harvard University', 'Censure', 'Higher Education', 'Protests']
 date: 2024-01-04
 ---
 

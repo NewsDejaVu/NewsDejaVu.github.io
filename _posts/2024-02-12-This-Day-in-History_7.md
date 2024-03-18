@@ -2,7 +2,7 @@
 layout: post
 title: "Special Edition - The Super Bowl"
 categories: ['Patrick Mahomes', 'George Earnshaw', 'Usher', 'Sinatra', 'Swift', 'Cleon Jones', 'Chiefs', 'Heidi', 'Beyoncé', 'Mark Davis', 'Moriarty', 'Shanahan', 'Nixon']
-tags: ['Super Bowl', 'Baseball', 'Music', 'Sports']
+tags: ['_News', 'Super Bowl', 'Baseball', 'Music', 'Sports']
 date: 2024-02-12
 ---
 
