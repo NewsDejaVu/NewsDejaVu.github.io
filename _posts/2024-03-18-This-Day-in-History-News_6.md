@@ -2,7 +2,7 @@
 layout: post
 title: "News Weekly Roundup - March 18, 2024"
 categories: ['Willis', 'Walker', 'Ference', 'Tyson Food', 'Chicago', 'Biden', 'Mitchell', 'Joe Biden', 'Nixon', 'Al Gore', 'Teller']
-tags: ['_News', 'Politics', 'Court Case', 'Electric Car```', 'Electric Vehicles', 'Business', 'Economy', 'Israel-Hamas War', 'Climate Change']
+tags: ['_News', 'Politics', 'Court Case', 'Electric Car', 'Electric Vehicles', 'Business', 'Economy', 'Israel-Hamas War', 'Climate Change']
 date: 2024-03-18
 ---
 
