@@ -15,7 +15,16 @@ template_posts/
 misc/
 backup_posts/
 NewsDejaVu_Account_Details.md
-mailchimp_emailer/
+script/Mailchimp_Campaigns/
+script/MailMerge_Campaigns/
+script/post_creation/
+
+# Special Markdown Posts to Ignore
+_posts/2024-01-28*
+
+# Special Markdown Posts Want to Ignore
+_posts/2024-01-28-This-Day-in-History_2.md
+_post/2024-02-27-This-Day-in-History_1.md
 
 # Special Markdown Posts Want to Ignore
 _posts/2024-01-28-This-Day-in-History_2.md

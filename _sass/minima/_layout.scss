@@ -496,7 +496,7 @@
   flex-direction: row;            /* default value; can be omitted */
   flex-wrap: nowrap; 
   align-items: center;            
-  justify-content: space-between; 
+  justify-content: center; // change this to space-between if add subscription form back
   padding-bottom: 15px;
 }
 
@@ -598,6 +598,23 @@
 
 .post-list-heading {
   @include relative-font-size(1.75);
+}
+
+.page-title {
+  position: relative;
+  font-family: "Engravers MT";
+  font-weight: 800;
+  font-style: normal;
+  text-align: center;
+  letter-spacing: 17.5px;
+  text-transform: uppercase;
+  line-height: $base-line-height * 0.575;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  padding-left: 5px;
+  border-style: solid;
+  border-color: black;
+  border-width: 2.5px;
 }
 
 
@@ -796,7 +813,6 @@
   text-transform: uppercase;
   border-bottom: 3px solid black;
   line-height: $base-line-height * 0.575;
-  top: -10px;
   padding-top: 10px;
   padding-bottom: 30px;
   width: 1200px;
@@ -1163,6 +1179,11 @@
     width: 100%;
   }
 
+  .page-title {
+    width: 100%;
+    font-size: 85%;
+  }
+
 
  }
 
@@ -1173,7 +1194,8 @@
   }
 
   .banner {
-    .phrase{
+
+    .phrase {
       display: none;
     }
     
@@ -1216,6 +1238,11 @@
     position: relative;
     left: 0%;
     width: 100%;
+  }
+
+  .page-title {
+    width: 100%;
+    font-size: 85%;
   }
 
 
@@ -1296,6 +1323,7 @@
     // .weatherforecastbox{
     //   display: none;
     // }
+    
   
   }
 
