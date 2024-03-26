@@ -1,7 +1,7 @@
 ---
 layout: page
-title: Editors
-permalink: /editors/
+title: Contributors
+permalink: /contributors/
 ---
 
 <style>
